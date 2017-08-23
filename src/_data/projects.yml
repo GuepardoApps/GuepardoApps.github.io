@@ -1,0 +1,181 @@
+- title: LucaHome-RaspberryServer
+  subtitle: Mini C++ server to control sockets and more
+  homepage: https://github.com/GuepardoApps/LucaHome-RaspberryServer
+  image: static/img/raspberry_pi_server.jpg
+  date: 2017
+  tags:
+  - raspberry pi
+  - c++
+  - server
+  - home automation
+  - home security
+  - sockets
+  - security camera
+  - lucahome
+  description: Small C++-Server running on a raspberry pi to control sockets in your home. Clients available for android and windows. Even a website.
+
+- title: LucaHome-Website
+  subtitle: Website running on a raspberry
+  homepage: https://github.com/GuepardoApps/LucaHome-Website
+  image: https://github.com/GuepardoApps/LucaHome-Website/blob/master/screenshots/img001.png
+  date: 2017
+  tags:
+  - PHP
+  - home automation
+  - home security
+  - lucahome
+  description: Website based on PHP to view some basic data about the LucaHome-Project.
+
+- title: LucaHome-RaspberryTemperatureLogger
+  subtitle: Python script to log temperature values and provide a small GUI to view as website.
+  homepage: https://github.com/GuepardoApps/LucaHome-RaspberryTemperatureLogger
+  image: https://github.com/GuepardoApps/LucaHome-RaspberryTemperatureLogger/blob/master/screenshots/img001.png
+  date: 2017
+  tags:
+  - python
+  - temperature log
+  - lucahome
+  description: Python script to log temperature values and provide a small GUI to view as website.
+
+- title: LucaHome-AndroidApplication
+  subtitle: Android client for LucaHome-RaspberryServer
+  homepage: https://github.com/GuepardoApps/LucaHome-AndroidApplication
+  image: https://github.com/GuepardoApps/LucaHome-AndroidApplication/blob/master/screenshots/header_001.png
+  date: 2017
+  tags:
+  - android
+  - material
+  - home automation
+  - home security
+  - sockets
+  - lucahome
+  description: Android application of LucaHome to control sockets, view birthdays, your coins, the weather and more. Even control the media server project.
+
+- title: LucaHome-WPFApplication
+  subtitle: WPF client for LucaHome-RaspberryServer
+  homepage: https://github.com/GuepardoApps/LucaHome-WPFApplication
+  image: https://github.com/GuepardoApps/LucaHome-WPFApplication/blob/master/screenshots/img002.png
+  date: 2017
+  tags:
+  - wpf
+  - material
+  - home automation
+  - home security
+  - sockets
+  - movies
+  - library
+  - lucahome
+  description: WPF client to remotely control sockets, view temperature and more of your home.
+
+- title: LucaHome-MediaServer
+  subtitle: Android app for youtube, weather and more
+  homepage: https://github.com/GuepardoApps/LucaHome-MediaServer
+  image: https://github.com/GuepardoApps/LucaHome-MediaServer/blob/master/screenshots/image001.png
+  date: 2017
+  tags:
+  - android
+  - media server
+  - youtube frontend
+  - weather
+  - rss
+  - radio streams
+  - calendar
+  - birthdays
+  - lucahome
+  description: MediaServer running on a tablet (e.g.) to play youtube, radio streams, display news and weather and more.
+
+- title: LucaHome-AndroidAppAccessControl
+  subtitle: Android client to control the access to your home.
+  homepage: https://github.com/GuepardoApps/LucaHome-AndroidAppAccessControl
+  image: https://github.com/GuepardoApps/LucaHome-AndroidAppAccessControl/blob/master/screenshots/header_001.png
+  date: 2017
+  tags:
+  - android
+  - home security
+  - lucahome
+  description: Android application for LucaHome to control access to your flat. 
+
+- title: LucaHome-PuckJS
+  subtitle: Javascript to run on a PuckJS
+  homepage: https://github.com/GuepardoApps/LucaHome-PuckJS
+  image: http://www.espruino.com/refimages/Puck.js_board.jpg
+  date: 2017
+  tags:
+  - javascript
+  - home automation
+  - home navigation
+  - lucahome
+  description: Part of the LucaHome-Project JavaScript to control a PuckJS. Shall read out battery, temperature, light and magnetometer to broadcast via bluetooth LE. Furher plans are providing LucaHome Website IP via NFC and BLE, use a number of PuckJS to provide indoor navigation for an android application and possible IR control of TV. WIP
+
+- title: PasswordSafe-WindowsServer
+  subtitle: C# WPF server to paste received login data
+  homepage: https://github.com/GuepardoApps/PasswordSafe-WindowsServer
+  image: https://github.com/GuepardoApps/PasswordSafe-WindowsServer/blob/master/screenshots/img001.png
+  date: 2017
+  tags:
+  - WPF
+  - Windows 10
+  - automation
+  - decryption
+  - passwordsafe
+  description: C# part for passwordsafe project. Mini server to receive commands from the android client. Received data will be entered into focused Editfields 
+
+- title: PasswordSafe-AndroidClient
+  subtitle: Android client for PasswordSafe
+  homepage: https://github.com/GuepardoApps/PasswordSafe-AndroidClient
+  image: https://github.com/GuepardoApps/PasswordSafe-AndroidClient/blob/master/screenshots/view_002.png
+  date: 2017
+  tags:
+  - android
+  - material
+  - automation
+  - encryption
+  - decryption
+  - passwordsafe
+  description: android client for passwordsafe project. Stores account details encrypted. If a server is available and connection was established, sending of Login data is possible (encrypted) 
+
+- title: Open Weather
+  subtitle: Library to receive data from open weather
+  homepage: https://github.com/GuepardoApps/library_OpenWeather
+  image: https://github.com/GuepardoApps/library_OpenWeather/blob/master/screenshots/example_usage.png
+  date: 2017
+  tags:
+  - android
+  - library
+  - open weather
+  description: library for downloading and handling data from openweather 
+
+- title: StopMe
+  subtitle: An android application for tracking time 
+  homepage: https://github.com/GuepardoApps/StopMe
+  image: https://github.com/GuepardoApps/StopMe/blob/master/screenshots/header_002.png
+  date: 2017
+  tags:
+  - android
+  - material
+  - stopwatch
+  - floating window
+  description: Android application for tracking time. Example of a floating window and floating button to track time anywhere.
+
+- title: BMICalculator
+  subtitle: Android application for calculating your bmi, saving it and displaying a graph of your progress 
+  homepage: https://github.com/GuepardoApps/BMICalculator
+  image: https://github.com/GuepardoApps/BMICalculator/blob/master/screenshots/header_001.png
+  date: 2017
+  tags:
+  - android
+  - material
+  - bmi calculator
+  - health
+  description: Android application for calculating your bmi, saving it and displaying a graph of your progress
+
+- title: VerticalSeekbarView
+  subtitle: library to create a vertical seebar in android 
+  homepage: https://github.com/GuepardoApps/library_VerticalSeekbarView
+  image: https://github.com/GuepardoApps/library_VerticalSeekbarView/blob/master/screenshots/img_001.png
+  date: 2017
+  tags:
+  - android
+  - library
+  - vertical seekbar
+  description: library for a vertical seebar

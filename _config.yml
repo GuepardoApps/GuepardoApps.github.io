@@ -1,1 +1,95 @@
-theme: jekyll-theme-cayman
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+react:
+  title: GuepardoApps
+  name: Jonas Schubert
+  menu_right_subtitle: Medical software engineer
+  avatar: http://api.adorable.io/avatar/gueparodapps
+  logo: static/img/logo.png
+  email: guepardoapps@gmail.com
+  description: > # this means to ignore newlines until "baseurl:"
+    Website for GuepardoApps hosted on GuepardoApps.
+    Free repositories with MIT license for your personal use.
+    Mostly home automation, password safe and more.
+  baseurl: "" # the subpath of your site, e.g. /blog
+  url: "https://guepardoapps.github.io/" # the base hostname & protocol for your site
+  permalink: /posts/:title
+  social:
+    github: https://github.com/GuepardoApps
+    rss: feed.xml
+
+
+
+title: GuepardoApps
+name: Jonas Schubert
+menu_right_subtitle: Medical software engineer
+avatar: http://api.adorable.io/avatar/gueparodapps
+logo: static/img/logo.png
+email: guepardoapps@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Website for GuepardoApps hosted on GuepardoApps.
+  Free repositories with MIT license for your personal use.
+  Mostly home automation, password safe and more.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://guepardoapps.github.io/" # the base hostname & protocol for your site
+permalink: /posts/:title
+
+github_username: GuepardoApps
+
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+source: src
+destination: public
+
+assets:
+  compress:
+    css: sass
+    js: false
+
+  autowrite: true
+  cache: .asset-cache
+  cache_type: filesystem
+  cdn: www.example.com
+  skip_baseurl_with_cdn: false
+  skip_prefix_with_cdn: false
+  prefix: "/assets"
+  digest: true
+
+  assets:
+    - "*.png"
+    - "bundle.css"
+    - "bundle.js.map"
+    - "*.svg"
+    - "*.eof"
+    - "*.ttf"
+
+  sources:
+    - src/_assets/css
+    - src/_assets/fonts
+    - src/_assets/img
+    - src/_assets/projects
+
+  features:
+    liquid: false
+    integrity: true
+    automatic_img_size: true
+    automatic_img_alt : true
+
+exclude: ['node_modules', 'Gemfile', '.asset-cache', 'build-prod.sh', 'build-dev.sh']
+
+gems:
+  - jekyll-assets
+  - jekyll_pages_api
+  - jekyll-react
