@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## Welcome to GuepardoApps
 
-You can use the [editor on GitHub](https://github.com/GuepardoApps/GuepardoApps.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I provide some small repositories, mostly for android. Please visit my [repository page](https://github.com/GuepardoApps?tab=repositories) to see all.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+There are also two bigger projects:
+- [LucaHome](https://github.com/GuepardoApps/LucaHome)
+- [PasswordSafe](https://github.com/GuepardoApps/PasswordSafe)
 
-### Markdown
+### LucaHome
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+LucaHome is a home networking project to control sockets, view movies, log temperature and more.
+- [Raspberry Pi Server](https://github.com/GuepardoApps/LucaHome-RaspberryServer)
+- [PHP website on Raspi](https://github.com/GuepardoApps/LucaHome-Website)
+- [Python Temperature Logger](https://github.com/GuepardoApps/LucaHome-RaspberryTemperatureLogger)
+- [Android application](https://github.com/GuepardoApps/LucaHome-AndroidApplication)
+- [WPF client](https://github.com/GuepardoApps/LucaHome-WPFApplication)
+- [Android media server](https://github.com/GuepardoApps/LucaHome-MediaServer)
+- [Android application for access control](https://github.com/GuepardoApps/LucaHome-AndroidAppAccessControl)
 
-```markdown
-Syntax highlighted code block
+### PasswordSafe
 
-# Header 1
-## Header 2
-### Header 3
+PasswordSafe is a password project containing a [WPF project](https://github.com/GuepardoApps/PasswordSafe-WindowsServer) and an [Android project](https://github.com/GuepardoApps/PasswordSafe-AndroidClient).
 
-- Bulleted
-- List
+### WIP
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GuepardoApps/GuepardoApps.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Content will be available soon.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Mail](guepardoapps@gmail.com)
