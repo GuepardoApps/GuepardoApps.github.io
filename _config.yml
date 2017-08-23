@@ -61,7 +61,7 @@ assets:
   autowrite: true
   cache: .asset-cache
   cache_type: filesystem
-  cdn: www.example.com
+  cdn: https://guepardoapps.github.io
   skip_baseurl_with_cdn: false
   skip_prefix_with_cdn: false
   prefix: "/assets"
