@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "About"
+    url: /about/
+
+projects:
+  - title: "LucaHome"
+    url: /projects-lucahome/
+  - title: "PasswordSafe"
+    url: /projects-passwordsafe/

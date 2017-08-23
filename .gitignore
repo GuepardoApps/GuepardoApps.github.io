@@ -9,3 +9,5 @@
 .externalNativeBuild
 /public
 /TRASH
+/_site
+/.sass-cache
