@@ -6,7 +6,6 @@ categories:
   - Post
   - LucaHome
   - PasswordSafe
-  - Uncategorized
 tags:
   - initial post
 date:   2017-08-23 21:01:00 +0200
