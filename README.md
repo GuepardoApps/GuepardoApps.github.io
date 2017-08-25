@@ -21,9 +21,7 @@ LucaHome is a home networking project to control sockets, view movies, log tempe
 
 PasswordSafe is a password project containing a [WPF project](https://github.com/GuepardoApps/PasswordSafe-WindowsServer) and an [Android project](https://github.com/GuepardoApps/PasswordSafe-AndroidClient).
 
-### WIP
-
-Content will be available soon.
+#### More on my [page](https://guepardoapps.github.io)
 
 ### Support or Contact
 
