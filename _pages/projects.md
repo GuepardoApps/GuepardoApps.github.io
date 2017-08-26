@@ -83,6 +83,9 @@ date: 2017-08-24T22:38:00+00:00
         <div class="card-image">
           <img src="/assets/images/open_weather_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
           <span class="card-title" style="position: absolute; right: 0; text-align:right;">Open Weather</span>
+          <a target="_blank" href="https://github.com/GuepardoApps/library_OpenWeather/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+            <i class="material-icons">save</i>
+          </a>
           <a target="_blank" href="https://github.com/GuepardoApps/library_OpenWeather" class="btn-floating halfway-fab waves-effect waves-light blue">
   					<i class="material-icons">open_in_new</i>
   				</a>
@@ -94,6 +97,56 @@ date: 2017-08-24T22:38:00+00:00
   				<a target="_blank" href="https://www.android.com" title="Platform">
   					<img src="https://img.shields.io/badge/platform-Android-blue.svg" />
   				</a>
+  				<a target="_blank" href="https://android-arsenal.com/api?level=21" title="API21+">
+  					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://github.com/GuepardoApps/library_OpenWeather" title="Build">
+  					<img src="https://img.shields.io/badge/build-passing-green.svg" />
+  				</a>
+  				<a target="_blank" href="https://github.com/GuepardoApps/library_OpenWeather" title="Version">
+  					<img src="https://img.shields.io/badge/version-v0.11.0.170819-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
+  					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://www.paypal.me/GuepardoApps" title="Donate using PayPal">
+  					<img src="https://img.shields.io/badge/paypal-donate-blue.svg" />
+  				</a>
+        </div>
+        <div class="card-action" style="text-align: right;">
+          <a href="/projects/OpenWeather">more...</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s10 m4">
+      <div class="card blue-grey darken-1">
+        <div class="card-image">
+          <img src="/assets/images/stopme_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
+          <span class="card-title" style="position: absolute; right: 0; text-align:right;">StopMe</span>
+          <a target="_blank" href="https://github.com/GuepardoApps/StopMe/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+            <i class="material-icons">save</i>
+          </a>
+          <a target="_blank" href="https://github.com/GuepardoApps/StopMe" class="btn-floating halfway-fab waves-effect waves-light blue">
+  					<i class="material-icons">open_in_new</i>
+  				</a>
+        </div>
+        <div class="card-content white-text">
+          <p>Android application for tracking time. Example of a floating window and floating button to track time anywhere.</p>
+        </div>
+        <div class="card-action">
+  				<a target="_blank" href="https://www.android.com" title="Platform">
+  					<img src="https://img.shields.io/badge/platform-Android-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://android-arsenal.com/api?level=21" title="API21+">
+  					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://github.com/GuepardoApps/StopMe" title="Build">
+  					<img src="https://img.shields.io/badge/build-passing-green.svg" />
+  				</a>
+  				<a target="_blank" href="https://github.com/GuepardoApps/StopMe" title="Version">
+  					<img src="https://img.shields.io/badge/version-v1.1.0.170823-blue.svg" />
+  				</a>
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
   				</a>
@@ -103,5 +156,82 @@ date: 2017-08-24T22:38:00+00:00
         </div>
       </div>
     </div>
+
+    <div class="col s10 m4">
+      <div class="card blue-grey darken-1">
+        <div class="card-image">
+          <img src="/assets/images/bmi_calculator_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
+          <span class="card-title" style="position: absolute; right: 0; text-align:right;">BMI Calculator</span>
+          <a target="_blank" href="https://github.com/GuepardoApps/BMICalculator/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+            <i class="material-icons">save</i>
+          </a>
+          <a target="_blank" href="https://github.com/GuepardoApps/BMICalculator" class="btn-floating halfway-fab waves-effect waves-light blue">
+  					<i class="material-icons">open_in_new</i>
+  				</a>
+        </div>
+        <div class="card-content white-text">
+          <p>Android application for calculating your bmi, saving it and displaying a graph of your progress.</p>
+        </div>
+        <div class="card-action">
+  				<a target="_blank" href="https://www.android.com" title="Platform">
+  					<img src="https://img.shields.io/badge/platform-Android-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://android-arsenal.com/api?level=21" title="API21+">
+  					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://github.com/GuepardoApps/BMICalculator" title="Build">
+  					<img src="https://img.shields.io/badge/build-success-green.svg" />
+  				</a>
+  				<a target="_blank" href="https://github.com/GuepardoApps/BMICalculator" title="Version">
+  					<img src="https://img.shields.io/badge/version-v1.1.0.170823-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
+  					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://www.paypal.me/GuepardoApps" title="Donate using PayPal">
+  					<img src="https://img.shields.io/badge/paypal-donate-blue.svg" />
+  				</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s10 m4">
+      <div class="card blue-grey darken-1">
+        <div class="card-image">
+          <img src="/assets/images/heartratemonitor_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
+          <span class="card-title" style="position: absolute; right: 0; text-align:right;">HeartRateMonitor</span>
+          <a target="_blank" href="https://github.com/GuepardoApps/HeartRateMonitor/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+            <i class="material-icons">save</i>
+          </a>
+          <a target="_blank" href="https://github.com/GuepardoApps/HeartRateMonitor" class="btn-floating halfway-fab waves-effect waves-light blue">
+  					<i class="material-icons">open_in_new</i>
+  				</a>
+        </div>
+        <div class="card-content white-text">
+          <p>Android application for measuring your pulse by using the camera of the phone.</p>
+        </div>
+        <div class="card-action">
+  				<a target="_blank" href="https://www.android.com" title="Platform">
+  					<img src="https://img.shields.io/badge/platform-Android-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://android-arsenal.com/api?level=21" title="API21+">
+  					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://github.com/GuepardoApps/HeartRateMonitor" title="Build">
+  					<img src="https://img.shields.io/badge/build-success-green.svg" />
+  				</a>
+  				<a target="_blank" href="https://github.com/GuepardoApps/HeartRateMonitor" title="Version">
+  					<img src="https://img.shields.io/badge/version-v0.2.1.170823-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
+  					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://www.paypal.me/GuepardoApps" title="Donate using PayPal">
+  					<img src="https://img.shields.io/badge/paypal-donate-blue.svg" />
+  				</a>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>

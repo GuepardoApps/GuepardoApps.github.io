@@ -19,7 +19,7 @@ I studied medical engineering at the university of applied sciences in Jena and 
 During this time I started coding with some basic android stuff. First project was an application for my university to get the class schedule, the menu of the canteen and the timetable of public traffic.
 Soon I got more and more excited about android and also about raspberry pi. So as a lazy student I thought about more automation for my flat and this is where [LucaHome](https://github.com/GuepardoApps/LucaHome) started.
 
-During my first job last year I learned a lot about C# and WPF and felt in love with it. Currently I am working for a car modelling sowftare company and do lot of stuff with Matlab and Simulink.
+During my first job last year I learned a lot about C# and WPF and felt in love with it. Currently I am working for a car modelling software company and do lot of stuff with Matlab and Simulink.
 
 Skills
 ```
@@ -35,6 +35,7 @@ Tooling and more
 - Visual Studio 2017
 - Android Studio 2 & 3
 - Eclipse
+- Atom
 - GitHub, TFS and SVN
 ```
 

@@ -7,15 +7,23 @@ author_profile: false
 date: 2017-08-23T21:47:00+00:00
 ---
 
+<div style="width: 100%;text-align: center;margin:15px;text-decoration: underline;">
+	<h1>LucaHome</h1>
+</div>
+
 <div>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <div class="row" >
+
   	<div class="col s10 m4">
   		<div class="card blue-grey darken-1">
   			<div class="card-image">
   				<img src="/assets/images/lucahome_android_client_001.png">
-  				<span class="card-title" style="color: #000000; position: absolute; top: 0; right: 0; text-align:left;">Android Client Application</span>
+  				<span class="card-title" style="color: #000000; position: absolute; right: 0; text-align:right;">Android Client Application</span>
+          <a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidApplication/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+            <i class="material-icons">save</i>
+          </a>
   				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidApplication" class="btn-floating halfway-fab waves-effect waves-light blue">
   					<i class="material-icons">open_in_new</i>
   				</a>
@@ -44,7 +52,10 @@ date: 2017-08-23T21:47:00+00:00
   		<div class="card blue-grey darken-1">
   			<div class="card-image">
   				<img src="/assets/images/lucahome_wpf_client_001.jpg">
-  				<span class="card-title" style="color: #000000; position: absolute; top: 0; right: 0; text-align:left;">WPF Client Application</span>
+  				<span class="card-title" style="color: #000000; position: absolute; right: 0; text-align:right;">WPF Client Application</span>
+          <a target="_blank" href="https://github.com/GuepardoApps/LucaHome-WPFApplication/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+            <i class="material-icons">save</i>
+          </a>
   				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-WPFApplication" class="btn-floating halfway-fab waves-effect waves-light blue">
   					<i class="material-icons">open_in_new</i>
   				</a>
@@ -71,9 +82,12 @@ date: 2017-08-23T21:47:00+00:00
   			<div class="card-image">
   				<img src="/assets/images/lucahome_android_mediamirror_001.png">
   				<span class="card-title" style="position: absolute; right: 0; text-align:right;">Android mediamirror</span>
-  					<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-MediaServer" class="btn-floating halfway-fab waves-effect waves-light blue">
-  						<i class="material-icons">open_in_new</i>
-  					</a>
+          <a target="_blank" href="https://github.com/GuepardoApps/LucaHome-MediaServer/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+            <i class="material-icons">save</i>
+          </a>
+					<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-MediaServer" class="btn-floating halfway-fab waves-effect waves-light blue">
+						<i class="material-icons">open_in_new</i>
+					</a>
   			</div>
   			<div class="card-content white-text">
   				<p>Android application permanently displaying data behind a mirror</p>
@@ -102,6 +116,9 @@ date: 2017-08-23T21:47:00+00:00
   			<div class="card-image">
   				<img src="/assets/images/lucahome_server_001.jpg">
   				<span class="card-title" style="position: absolute; right: 0; text-align:right;">Raspberry Pi Server</span>
+          <a target="_blank" href="https://github.com/GuepardoApps/LucaHome-RaspberryServer/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+            <i class="material-icons">save</i>
+          </a>
   				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-RaspberryServer" class="btn-floating halfway-fab waves-effect waves-light blue">
   					<i class="material-icons">open_in_new</i>
   				</a>
@@ -128,6 +145,9 @@ date: 2017-08-23T21:47:00+00:00
   			<div class="card-image">
   				<img src="/assets/images/lucahome_website_001.jpg">
   				<span class="card-title" style="color: #000000; position: absolute; right: 0; text-align:right;">PHP Website</span>
+          <a target="_blank" href="https://github.com/GuepardoApps/LucaHome-Website/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+            <i class="material-icons">save</i>
+          </a>
   				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-Website" class="btn-floating halfway-fab waves-effect waves-light blue">
   					<i class="material-icons">open_in_new</i>
   				</a>
@@ -151,6 +171,9 @@ date: 2017-08-23T21:47:00+00:00
   			<div class="card-image">
   				<img src="/assets/images/lucahome_temperature_logger_001.jpg">
   				<span class="card-title" style="color: #000000; position: absolute; right: 0; text-align:right;">Python Temperature Logger</span>
+          <a target="_blank" href="https://github.com/GuepardoApps/LucaHome-RaspberryTemperatureLogger/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+            <i class="material-icons">save</i>
+          </a>
   				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-RaspberryTemperatureLogger" class="btn-floating halfway-fab waves-effect waves-light blue">
   					<i class="material-icons">open_in_new</i>
   				</a>
@@ -176,9 +199,12 @@ date: 2017-08-23T21:47:00+00:00
   			<div class="card-image">
   				<img src="/assets/images/lucahome_android_access_client_001.png">
   				<span class="card-title" style="position: absolute; right: 0; text-align:right;">Android client to control the access to your home</span>
-  					<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidAppAccessControl" class="btn-floating halfway-fab waves-effect waves-light blue">
-  						<i class="material-icons">open_in_new</i>
-  					</a>
+          <a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidAppAccessControl/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+            <i class="material-icons">save</i>
+          </a>
+					<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidAppAccessControl" class="btn-floating halfway-fab waves-effect waves-light blue">
+						<i class="material-icons">open_in_new</i>
+					</a>
   			</div>
   			<div class="card-content white-text">
   				<p>An android application to control the access to the flat.</p>
@@ -199,5 +225,36 @@ date: 2017-08-23T21:47:00+00:00
   			</div>
   		</div>
   	</div>
+
+    <div class="row" >
+    	<div class="col s10 m5">
+    		<div class="card blue-grey darken-1">
+    			<div class="card-image">
+    				<img src="/assets/images/lucahome_puckjs_001.jpg">
+    				<span class="card-title" style="position: absolute; right: 0; text-align:right;">Part of LucaHome - PuckJS for home navigation and more</span>
+            <a target="_blank" href="https://github.com/GuepardoApps/LucaHome-PuckJS/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+              <i class="material-icons">save</i>
+            </a>
+  					<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-PuckJS" class="btn-floating halfway-fab waves-effect waves-light blue">
+  						<i class="material-icons">open_in_new</i>
+  					</a>
+    			</div>
+    			<div class="card-content white-text">
+    				<p>Part of the LucaHome-Project JavaScript to control a PuckJS. Shall read out battery, temperature, light and magnetometer to broadcast via bluetooth LE. Furher plans are: - provide LucaHome Website IP via NFC and BLE - use a number of PuckJS to provide indoor navigation for an android application - possible IR control of TV</p>
+    			</div>
+    			<div class="card-action">
+    				<a target="_blank" href="http://www.puck-js.com/" title="Platform">
+    					<img src="https://img.shields.io/badge/platform-PuckJS-yellow.svg" />
+    				</a>
+    				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-PuckJS" title="Build">
+    					<img src="https://img.shields.io/badge/build-na-yellow.svg" />
+    				</a>
+    				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-PuckJS" title="Version">
+    					<img src="https://img.shields.io/badge/version-v0.0.1.170703-blue.svg" />
+    				</a>
+    			</div>
+    		</div>
+    	</div>
+
   </div>
 </div>

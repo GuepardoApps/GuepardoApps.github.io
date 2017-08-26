@@ -4,6 +4,8 @@ main:
     url: /
   - title: "Projects"
     url: /projects/
+  - title: "Paintings"
+    url: /paintings/
   - title: "About"
     url: /about/
 
@@ -12,3 +14,5 @@ projects:
     url: /projects-lucahome/
   - title: "PasswordSafe"
     url: /projects-passwordsafe/
+  - title: "OpenWeather"
+    url: /projects-openweather/
