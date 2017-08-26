@@ -160,6 +160,44 @@ date: 2017-08-24T22:38:00+00:00
     <div class="col s10 m4">
       <div class="card blue-grey darken-1">
         <div class="card-image">
+          <img src="/assets/images/whosbirthday_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
+          <span class="card-title" style="position: absolute; right: 0; text-align:right;">Who's Birthday</span>
+          <a target="_blank" href="https://github.com/GuepardoApps/WhosBirthday/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+            <i class="material-icons">save</i>
+          </a>
+          <a target="_blank" href="https://github.com/GuepardoApps/WhosBirthday" class="btn-floating halfway-fab waves-effect waves-light blue">
+  					<i class="material-icons">open_in_new</i>
+  				</a>
+        </div>
+        <div class="card-content white-text">
+          <p>Android application for saving birthdays and getting remembered via notification.</p>
+        </div>
+        <div class="card-action">
+  				<a target="_blank" href="https://www.android.com" title="Platform">
+  					<img src="https://img.shields.io/badge/platform-Android-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://android-arsenal.com/api?level=21" title="API21+">
+  					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://github.com/GuepardoApps/WhosBirthday/tree/master/publish" title="Build">
+  					<img src="https://img.shields.io/badge/build-passing-green.svg" />
+  				</a>
+  				<a target="_blank" href="https://github.com/GuepardoApps/WhosBirthday/tree/master/publish/v1.0.0.170826.apk" title="Version">
+  					<img src="https://img.shields.io/badge/version-v1.0.0.170826-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
+  					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://www.paypal.me/GuepardoApps" title="Donate using PayPal">
+  					<img src="https://img.shields.io/badge/paypal-donate-blue.svg" />
+  				</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s10 m4">
+      <div class="card blue-grey darken-1">
+        <div class="card-image">
           <img src="/assets/images/bmi_calculator_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
           <span class="card-title" style="position: absolute; right: 0; text-align:right;">BMI Calculator</span>
           <a target="_blank" href="https://github.com/GuepardoApps/BMICalculator/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
