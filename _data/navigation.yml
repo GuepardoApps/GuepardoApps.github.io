@@ -4,8 +4,8 @@ main:
     url: /
   - title: "Projects"
     url: /projects/
-  - title: "Paintings"
-    url: /paintings/
+  #- title: "Paintings"
+  #  url: /paintings/
   - title: "About"
     url: /about/
 
