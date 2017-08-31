@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 render: dynamic
 author_profile: false
-date: 2017-08-30T22:35:00+00:00
+date: 2017-08-31T18:43:00+00:00
 ---
 
 <div>
@@ -52,11 +52,11 @@ date: 2017-08-30T22:35:00+00:00
 				  <div class="row-ceevee" style="margin-top: 55px;">
 		        <div class="twelve columns main-col">
 							<div class="bars">
-								<li><span class="bar-expand seventy-percent"></span><em>C# and WPF (experience of nearly two years)</em></li>
-								<li><span class="bar-expand eighty-percent"></span><em>Java and Android (experience of over three years)</em></li>
-								<li><span class="bar-expand eighty-percent"></span><em>LabVIEW (four years during studies)</em></li>
-								<li><span class="bar-expand sixty-percent"></span><em>Matlab and Simulink (experience of one year)</em></li>
-								<li><span class="bar-expand thirty-percent"></span><em>Basic experience in HTML, CSS and JavaScript (AngularJS)</em></li>
+								<li><span class="bar-expand eighty-percent">80%</span><em>C# and WPF</em></li>
+								<li><span class="bar-expand eighty-percent">80%</span><em>Android</em></li>
+								<li><span class="bar-expand seventy-percent">70%</span><em>LabVIEW</em></li>
+								<li><span class="bar-expand sixty-percent">60%</span><em>Matlab and Simulink</em></li>
+								<li><span class="bar-expand thirty-percent">30%</span><em>HTML, CSS and AngularJS</em></li>
 							</div>
 						</div>
 					</div>
@@ -71,11 +71,11 @@ date: 2017-08-30T22:35:00+00:00
 				  <div class="row-ceevee" style="margin-top: 55px;">
 		        <div class="twelve columns main-col">
 							<div class="bars">
-								<li><span class="bar-expand seventy-percent"></span><em>Visual Studio 2017</em></li>
-								<li><span class="bar-expand eighty-percent"></span><em>Android Studio 2 & 3</em></li>
-								<li><span class="bar-expand eighty-percent"></span><em>Eclipse</em></li>
-								<li><span class="bar-expand seventy-percent"></span><em>Atom</em></li>
-								<li><span class="bar-expand sixty-percent"></span><em>GitHub, TFS and SVN</em></li>
+								<li><span class="bar-expand seventy-percent">70%</span><em>Visual Studio 2017</em></li>
+								<li><span class="bar-expand eighty-percent">80%</span><em>Android Studio 2 & 3</em></li>
+								<li><span class="bar-expand eighty-percent">80%</span><em>Eclipse</em></li>
+								<li><span class="bar-expand eighty-percent">80%</span><em>Atom</em></li>
+								<li><span class="bar-expand sixty-percent">60%</span><em>GitHub, TFS and SVN</em></li>
 							</div>
 						</div>
 					</div>
@@ -89,13 +89,15 @@ date: 2017-08-30T22:35:00+00:00
 
 		<div class="col s10 m4">
 			<div class="card white white-1">
-				<span class="card-title" style="position: absolute; right: 0; left: 0; text-align:center;">Languages</span>
+				<span class="card-title" style="position: absolute; right: 0; left: 0; text-align:center;">EDP</span>
 				<div class="card-content dark-text">
-				  <div class="row-ceevee" style="margin-top: 55px;">
-		        <div class="twelve columns main-col">
+					<div class="row-ceevee" style="margin-top: 55px;">
+						<div class="twelve columns main-col">
 							<div class="bars">
-								<li><span class="bar-expand one-hundred-percent"></span><em>German as first language</em></li>
-								<li><span class="bar-expand seventy-percent"></span><em>English in fluent</em></li>
+								<li><span class="bar-expand ninety-percent">90%</span><em>MS Word</em></li>
+								<li><span class="bar-expand eighty-percent">80%</span><em>MS Excel</em></li>
+								<li><span class="bar-expand seventy-percent">70%</span><em>MS PowerPoint</em></li>
+								<li><span class="bar-expand thirty-percent">30%</span><em>MS Visio</em></li>
 							</div>
 						</div>
 					</div>
@@ -105,14 +107,14 @@ date: 2017-08-30T22:35:00+00:00
 
 		<div class="col s10 m4">
 			<div class="card white white-1">
-				<span class="card-title" style="position: absolute; right: 0; left: 0; text-align:center;">EDP</span>
+				<span class="card-title" style="position: absolute; right: 0; left: 0; text-align:center;">Languages</span>
 				<div class="card-content dark-text">
 				  <div class="row-ceevee" style="margin-top: 55px;">
 		        <div class="twelve columns main-col">
 							<div class="bars">
-								<li><span class="bar-expand ninety-percent"></span><em>Microsoft Word</em></li>
-								<li><span class="bar-expand eighty-percent"></span><em>Microsoft Excel</em></li>
-								<li><span class="bar-expand seventy-percent"></span><em>Microsoft PowerPoint</em></li>
+								<li><span class="bar-expand one-hundred-percent">100%</span><em>German</em></li>
+								<li><span class="bar-expand seventy-percent">70%</span><em>English</em></li>
+								<li><span class="bar-expand ten-percent">10%</span><em>Spanish</em></li>
 							</div>
 						</div>
 					</div>
@@ -127,8 +129,8 @@ date: 2017-08-30T22:35:00+00:00
 				  <div class="row-ceevee" style="margin-top: 55px;">
 		        <div class="twelve columns main-col">
 							<div class="bars">
-								<li><span class="bar-expand one-hundred-percent"></span><em>B</em></li>
-								<li><span class="bar-expand one-hundred-percent"></span><em>BE</em></li>
+								<li><span class="bar-expand one-hundred-percent">100%</span><em>B</em></li>
+								<li><span class="bar-expand one-hundred-percent">100%</span><em>BE</em></li>
 							</div>
 						</div>
 					</div>
@@ -147,19 +149,19 @@ date: 2017-08-30T22:35:00+00:00
 
   <div class="container">
 
-		<div class="timeline-item" style="margin-bottom: -250px;">
+		<div class="timeline-item">
       <div class="timeline-img"></div>
       <div class="timeline-content js--fadeInLeft">
         <div class="timeline-img-header">
 	        <h2>Working at ITK engineering GmbH</h2>
         </div>
-	      <div class="date">December 2016 - now</div>
+	      <div class="date">December 2016 - November 2017</div>
         <p>Since December 2016 I am working for ITK engineering GmbH which provides model based design and development. Therefore I am working with matlab and Simulink to simulate parts of cars.</p>
         <a class="bnt-more" target="_blank" href="http://www.itk-engineering.de/home/">Link to company</a>
       </div>
     </div>
 
-		<div class="timeline-item" style="margin-bottom: -225px;">
+		<div class="timeline-item">
       <div class="timeline-img"></div>
       <div class="timeline-content timeline-card js--fadeInRight">
         <div class="timeline-img-header">
@@ -173,7 +175,7 @@ date: 2017-08-30T22:35:00+00:00
       </div>
     </div>    
 
-		<div class="timeline-item" style="margin-bottom: -300px;">
+		<div class="timeline-item">
       <div class="timeline-img"></div>
       <div class="timeline-content js--fadeInLeft">
         <div class="timeline-img-header">
@@ -187,7 +189,7 @@ date: 2017-08-30T22:35:00+00:00
       </div>
     </div>  
 
-		<div class="timeline-item" style="margin-bottom: -200px;">
+		<div class="timeline-item">
       <div class="timeline-img"></div>
       <div class="timeline-content timeline-card js--fadeInRight">
         <div class="timeline-img-header">
@@ -201,7 +203,7 @@ date: 2017-08-30T22:35:00+00:00
       </div>
     </div>
 
-		<div class="timeline-item" style="margin-bottom: -150px;">
+		<div class="timeline-item">
       <div class="timeline-img"></div>
       <div class="timeline-content js--fadeInLeft">
         <div class="timeline-img-header">
@@ -213,7 +215,7 @@ date: 2017-08-30T22:35:00+00:00
       </div>
     </div>
 
-    <div class="timeline-item" style="margin-bottom: -150px;">
+    <div class="timeline-item">
       <div class="timeline-img"></div>
       <div class="timeline-content timeline-card js--fadeInRight">
         <div class="timeline-img-header">
@@ -225,7 +227,7 @@ date: 2017-08-30T22:35:00+00:00
       </div>
     </div>
 
-    <div class="timeline-item" style="margin-bottom: -175px;">
+    <div class="timeline-item">
       <div class="timeline-img"></div>
       <div class="timeline-content js--fadeInLeft">
         <div class="timeline-img-header">
@@ -237,7 +239,7 @@ date: 2017-08-30T22:35:00+00:00
       </div>
     </div>   
 
-    <div class="timeline-item" style="margin-bottom: -175px;">
+    <div class="timeline-item">
       <div class="timeline-img"></div>
       <div class="timeline-content timeline-card js--fadeInRight">
         <div class="timeline-img-header">
@@ -249,7 +251,7 @@ date: 2017-08-30T22:35:00+00:00
       </div>
     </div>  
 
-    <div class="timeline-item" style="margin-bottom: 25px;">
+    <div class="timeline-item">
       <div class="timeline-img"></div>
       <div class="timeline-content js--fadeInLeft">
         <div class="timeline-img-header">
@@ -264,9 +266,128 @@ date: 2017-08-30T22:35:00+00:00
   </div>
 </section>
 
-Further interests
-```
-- to walk dogs from the animal shelter
-- Soccer, Slackline, driving by bike
-- Painting
-```
+<section id="portfolio">
+   <div class="row-ceevee">
+      <div class="twelve columns collapsed">
+
+		    <h1>My personal interests</h1>
+
+		    <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+		  	   <div class="columns portfolio-item">
+		          <div class="item-wrap">
+		             <a href="" title="" style="pointer-events: none;cursor: default;">
+		                <img alt="" src="/assets/images/interests/walk_dog_shelter.jpg" />
+		                <div class="overlay">
+											<div class="portfolio-item-meta">
+		  					      	<h5>Dog walkies</h5>
+		                    <p>Who does not love doggies?</p>
+											</div>
+		                </div>
+		             </a>
+		          </div>
+		  		  </div>
+
+		   	   <div class="columns portfolio-item">
+		           <div class="item-wrap">
+		              <a href="" title="" style="pointer-events: none;cursor: default;">
+		                 <img alt="" src="/assets/images/interests/soccer.jpg" />
+		                 <div class="overlay">
+												<div class="portfolio-item-meta">
+		   					      	<h5>Soccer</h5>
+		                     <p>Best after workout!</p>
+												</div>
+		                 </div>
+		              </a>
+		           </div>
+		   		  </div>
+
+		   	   <div class="columns portfolio-item">
+		           <div class="item-wrap">
+		              <a href="" title="" style="pointer-events: none;cursor: default;">
+		                 <img alt="" src="/assets/images/interests/bike.jpg" />
+		                 <div class="overlay">
+												<div class="portfolio-item-meta">
+		   					      	<h5>Bike</h5>
+		                     <p>Best way to discover everything</p>
+												</div>
+		                 </div>
+		              </a>
+		           </div>
+		   		  </div>
+
+		   	   <div class="columns portfolio-item">
+		           <div class="item-wrap">
+		              <a href="" title="" style="pointer-events: none;cursor: default;">
+		                 <img alt="" src="/assets/images/interests/slackline.jpg" />
+		                 <div class="overlay">
+												<div class="portfolio-item-meta">
+		   					      	<h5>Slackline</h5>
+		                     <p>For better balance</p>
+												</div>
+		                 </div>
+		              </a>
+		           </div>
+		   		  </div>
+
+		   	   <div class="columns portfolio-item">
+		           <div class="item-wrap">
+		              <a href="" title="" style="pointer-events: none;cursor: default;">
+		                 <img alt="" src="/assets/images/interests/programming.png" />
+		                 <div class="overlay">
+												<div class="portfolio-item-meta">
+		   					      	<h5>Programming</h5>
+		                     <p>Android and C# are the best!</p>
+												</div>
+		                 </div>
+		              </a>
+		           </div>
+		   		  </div>
+
+		   	   <div class="columns portfolio-item">
+		           <div class="item-wrap">
+		              <a href="" title="" style="pointer-events: none;cursor: default;">
+		                 <img alt="" src="/assets/images/interests/traveling.jpg" />
+		                 <div class="overlay">
+												<div class="portfolio-item-meta">
+		   					      	<h5>Traveling</h5>
+		                     <p>Discover the most beautiful nature spots</p>
+												</div>
+		                 </div>
+		              </a>
+		           </div>
+		   		  </div>
+
+		   	   <div class="columns portfolio-item">
+		           <div class="item-wrap">
+		              <a href="" title="" style="pointer-events: none;cursor: default;">
+		                 <img alt="" src="/assets/images/interests/reading.png" />
+		                 <div class="overlay">
+												<div class="portfolio-item-meta">
+		   					      	<h5>Reading</h5>
+		                     <p>Thriller but mostly just some newspapers</p>
+												</div>
+		                 </div>
+		              </a>
+		           </div>
+		   		  </div>
+
+		   	   <div class="columns portfolio-item">
+		           <div class="item-wrap">
+		              <a href="" title="" style="pointer-events: none;cursor: default;">
+		                 <img alt="" src="/assets/images/paintings/painting_001.jpg" />
+		                 <div class="overlay">
+												<div class="portfolio-item-meta">
+		   					      	<h5>Painting</h5>
+		                     <p>To relax, paint!</p>
+												</div>
+		                 </div>
+		              </a>
+		           </div>
+		   		  </div>
+
+		      </div>
+
+      </div>
+   </div>
+</section>

@@ -17,9 +17,9 @@ date: 2017-08-23T19:44:00+00:00
   <div class="row" >
 
   	<div class="col s10 m4">
-  		<div class="card blue-grey darken-1">
+  		<div class="card grey darken-1">
   			<div class="card-image">
-  				<img src="/assets/images/passwordsafe_server_001.png">
+  				<img src="/assets/images/projects/passwordsafe_server_001.png">
   				<span class="card-title" style="color: #000000; position: absolute; right: 0; text-align:right;">Windows Server</span>
           <a target="_blank" href="https://github.com/GuepardoApps/PasswordSafe-WindowsServer/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
             <i class="material-icons">save</i>
@@ -49,9 +49,9 @@ date: 2017-08-23T19:44:00+00:00
   	</div>
 
   	<div class="col s10 m4">
-  		<div class="card blue-grey darken-1">
+  		<div class="card grey darken-1">
   			<div class="card-image">
-  				<img src="/assets/images/passwordsafe_client_001.png">
+  				<img src="/assets/images/projects/passwordsafe_client_001.png">
   				<span class="card-title" style="position: absolute; right: 0; text-align:right;">Android Client</span>
           <a target="_blank" href="https://github.com/GuepardoApps/PasswordSafe-AndroidClient/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
             <i class="material-icons">save</i>

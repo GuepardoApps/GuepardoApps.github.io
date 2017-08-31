@@ -9,7 +9,7 @@ date: 2017-08-26T09:46:00+00:00
 
 <div style="width: 100%;text-align: center;margin:15px;text-decoration: underline;">
 	<h1>OpenWeather</h1>
-	<img src="/assets/images/open_weather_001.png" alt="OpenWeather" style="width:150px;height:150px;margin:10px;border-radius:5px;">
+	<img src="/assets/images/projects/open_weather_001.png" alt="OpenWeather" style="width:150px;height:150px;margin:10px;border-radius:5px;">
 </div>
 
 # Integration
@@ -54,7 +54,7 @@ public class MainActivity extends Activity {
 			OpenWeatherService.ForecastWeatherDownloadFinishedContent content = (OpenWeatherService.ForecastWeatherDownloadFinishedContent) intent.getSerializableExtra(OpenWeatherService.ForecastWeatherDownloadFinishedBundle);
 
 			ForecastModel forecastWeather = content.ForecastModel;
-			
+
 			// Do whatever you want with the data
 			...
 		}
