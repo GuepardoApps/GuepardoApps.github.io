@@ -135,8 +135,8 @@ date: 2017-08-24T22:38:00+00:00
   				<a target="_blank" href="https://github.com/GuepardoApps/MyNote/tree/master/release" title="Build">
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/MyNote/tree/master/release/v1.1.0.170902.apk" title="Version">
-  					<img src="https://img.shields.io/badge/version-v1.1.0.170902-blue.svg" />
+  				<a target="_blank" href="https://github.com/GuepardoApps/MyNote/tree/master/release/v1.1.1.170902.apk" title="Version">
+  					<img src="https://img.shields.io/badge/version-v1.1.1.170902-blue.svg" />
   				</a>
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
