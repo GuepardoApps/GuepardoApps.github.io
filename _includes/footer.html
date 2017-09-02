@@ -1,3 +1,14 @@
+<div style="width=100%; text-align:right;">
+  <button onclick="scrollBackToTop()" class="btn-floating" title="Go to top">Top</button>
+
+  <script>
+  function scrollBackToTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+  }
+  </script>
+</div>
+
 <div class="page__footer-follow">
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}

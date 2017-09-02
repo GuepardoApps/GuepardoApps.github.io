@@ -113,6 +113,41 @@ date: 2017-08-24T22:38:00+00:00
     <div class="col s10 m4">
       <div class="card grey darken-1">
         <div class="card-image">
+          <img src="/assets/images/projects/mynote_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
+          <span class="card-title" style="position: absolute; right: 0; text-align:right;">MyNote</span>
+          <a target="_blank" href="https://github.com/GuepardoApps/MyNote/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+            <i class="material-icons">save</i>
+          </a>
+          <a target="_blank" href="https://github.com/GuepardoApps/MyNote" class="btn-floating halfway-fab waves-effect waves-light blue">
+  					<i class="material-icons">open_in_new</i>
+  				</a>
+        </div>
+        <div class="card-content white-text">
+          <p>Android application for creating notes and saving them to a database. Example of a floating window.</p>
+        </div>
+        <div class="card-action">
+  				<a target="_blank" href="https://www.android.com" title="Platform">
+  					<img src="https://img.shields.io/badge/platform-Android-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://android-arsenal.com/api?level=21" title="API21+">
+  					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://github.com/GuepardoApps/MyNote/tree/master/release" title="Build">
+  					<img src="https://img.shields.io/badge/build-passing-green.svg" />
+  				</a>
+  				<a target="_blank" href="https://github.com/GuepardoApps/MyNote/tree/master/release/v1.1.0.170902.apk" title="Version">
+  					<img src="https://img.shields.io/badge/version-v1.1.0.170902-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
+  					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
+  				</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s10 m4">
+      <div class="card grey darken-1">
+        <div class="card-image">
           <img src="/assets/images/projects/stopme_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
           <span class="card-title" style="position: absolute; right: 0; text-align:right;">StopMe</span>
           <a target="_blank" href="https://github.com/GuepardoApps/StopMe/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
