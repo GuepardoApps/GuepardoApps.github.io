@@ -11,7 +11,7 @@ date: 2017-08-24T22:38:00+00:00
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <div class="row" >
-    <div class="col s10 m4">
+    <div class="col s10 m3">
       <div class="card grey darken-1">
         <div class="card-image">
           <img src="/assets/images/projects/lucahome_001.png" style="width: 100px; height: 100px; padding:10px;">
@@ -31,7 +31,7 @@ date: 2017-08-24T22:38:00+00:00
   					<img src="https://img.shields.io/badge/platform-Android-blue.svg" />
   				</a>
   				<a target="_blank" href="https://www.raspberrypi.org" title="Platform">
-  					<img src="https://img.shields.io/badge/platform-Raspberry-blue.svg" />
+  					<img src="https://img.shields.io/badge/platform-RaspberryPi-blue.svg" />
   				</a>
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
@@ -43,7 +43,7 @@ date: 2017-08-24T22:38:00+00:00
       </div>
     </div>
 
-    <div class="col s10 m4">
+    <div class="col s10 m3">
       <div class="card grey darken-1">
         <div class="card-image">
           <img src="/assets/images/projects/passwordsafe_001.png" style="width: 100px; height: 100px; padding:10px;">
@@ -53,7 +53,7 @@ date: 2017-08-24T22:38:00+00:00
   				</a>
         </div>
         <div class="card-content white-text">
-          <p>Project for storing your passwords encrypted on your phone and sending them to a server to remotely entering into a browser for easier oneclick login</p>
+          <p>Project for storing your passwords encrypted on your phone and sending them to a server to remotely entering into a browser for easier oneclick login. Clipboard support on android.</p>
         </div>
         <div class="card-action">
   				<a target="_blank" href="https://de.wikipedia.org/wiki/Microsoft_Windows_10" title="Platform">
@@ -72,11 +72,11 @@ date: 2017-08-24T22:38:00+00:00
       </div>
     </div>
 
-    <div class="col s10 m4">
+    <div class="col s10 m3">
       <div class="card grey darken-1">
         <div class="card-image">
           <img src="/assets/images/projects/open_weather_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
-          <span class="card-title" style="position: absolute; right: 0; text-align:right;">Open Weather</span>
+          <span class="card-title" style="position: absolute; right: 0; text-align:right;">Open Weather - library</span>
           <a target="_blank" href="https://github.com/GuepardoApps/library_OpenWeather/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
             <i class="material-icons">save</i>
           </a>
@@ -85,7 +85,7 @@ date: 2017-08-24T22:38:00+00:00
   				</a>
         </div>
         <div class="card-content white-text">
-          <p>Android library for downloading and handling data from openweather</p>
+          <p>Android library for downloading and handling data provided by <a target="_blank" href="https://openweathermap.org/">openweathermap.org</a>. Notification and wallpaper support. </p>
         </div>
         <div class="card-action">
   				<a target="_blank" href="https://www.android.com" title="Platform">
@@ -110,7 +110,7 @@ date: 2017-08-24T22:38:00+00:00
       </div>
     </div>
 
-    <div class="col s10 m4">
+    <div class="col s10 m3">
       <div class="card grey darken-1">
         <div class="card-image">
           <img src="/assets/images/projects/mynote_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
@@ -123,7 +123,7 @@ date: 2017-08-24T22:38:00+00:00
   				</a>
         </div>
         <div class="card-content white-text">
-          <p>Android application for creating notes and saving them to a database. Example of a floating window.</p>
+          <p>Android application for creating notes and saving them to a database. Data is also provided using an floating bubble. Feature "Draw over other apps" is necessary! Feature can be disabled in settings!</p>
         </div>
         <div class="card-action">
   				<a target="_blank" href="https://www.android.com" title="Platform">
@@ -145,7 +145,7 @@ date: 2017-08-24T22:38:00+00:00
       </div>
     </div>
 
-    <div class="col s10 m4">
+    <div class="col s10 m3">
       <div class="card grey darken-1">
         <div class="card-image">
           <img src="/assets/images/projects/stopme_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
@@ -180,7 +180,7 @@ date: 2017-08-24T22:38:00+00:00
       </div>
     </div>
 
-    <div class="col s10 m4">
+    <div class="col s10 m3">
       <div class="card grey darken-1">
         <div class="card-image">
           <img src="/assets/images/projects/whosbirthday_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
@@ -215,7 +215,7 @@ date: 2017-08-24T22:38:00+00:00
       </div>
     </div>
 
-    <div class="col s10 m4">
+    <div class="col s10 m3">
       <div class="card grey darken-1">
         <div class="card-image">
           <img src="/assets/images/projects/bmi_calculator_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
@@ -250,7 +250,7 @@ date: 2017-08-24T22:38:00+00:00
       </div>
     </div>
 
-    <div class="col s10 m4">
+    <div class="col s10 m3">
       <div class="card grey darken-1">
         <div class="card-image">
           <img src="/assets/images/projects/heartratemonitor_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
@@ -263,7 +263,7 @@ date: 2017-08-24T22:38:00+00:00
   				</a>
         </div>
         <div class="card-content white-text">
-          <p>Android application for measuring your pulse by using the camera of the phone.</p>
+          <p>Android application for measuring your pulse by using the camera of the phone. Permission to use camera!</p>
         </div>
         <div class="card-action">
   				<a target="_blank" href="https://www.android.com" title="Platform">
@@ -281,6 +281,82 @@ date: 2017-08-24T22:38:00+00:00
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
   				</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s10 m3">
+      <div class="card grey darken-1">
+        <div class="card-image">
+          <img src="/assets/images/projects/project_dummy.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
+          <span class="card-title" style="position: absolute; right: 0; text-align:right;">JoystickView - library</span>
+          <a target="_blank" href="https://github.com/GuepardoApps/library_JoystickView/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+            <i class="material-icons">save</i>
+          </a>
+          <a target="_blank" href="https://github.com/GuepardoApps/library_JoystickView" class="btn-floating halfway-fab waves-effect waves-light blue">
+  					<i class="material-icons">open_in_new</i>
+  				</a>
+        </div>
+        <div class="card-content white-text">
+          <p>Android library for a customizable joystick.</p>
+        </div>
+        <div class="card-action">
+  				<a target="_blank" href="https://www.android.com" title="Platform">
+  					<img src="https://img.shields.io/badge/platform-Android-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://android-arsenal.com/api?level=21" title="API21+">
+  					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://github.com/GuepardoApps/library_JoystickView" title="Build">
+  					<img src="https://img.shields.io/badge/build-passing-green.svg" />
+  				</a>
+  				<a target="_blank" href="https://github.com/GuepardoApps/library_JoystickView" title="Version">
+  					<img src="https://img.shields.io/badge/version-v1.0.0.170902-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
+  					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
+  				</a>
+        </div>
+        <div class="card-action" style="text-align: right;">
+          <a href="/projects/JoystickView">more...</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s10 m3">
+      <div class="card grey darken-1">
+        <div class="card-image">
+          <img src="/assets/images/projects/project_dummy.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
+          <span class="card-title" style="position: absolute; right: 0; text-align:right;">VerticalSeekbarView - library</span>
+          <a target="_blank" href="https://github.com/GuepardoApps/library_VerticalSeekbarView/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+            <i class="material-icons">save</i>
+          </a>
+          <a target="_blank" href="https://github.com/GuepardoApps/library_VerticalSeekbarView" class="btn-floating halfway-fab waves-effect waves-light blue">
+  					<i class="material-icons">open_in_new</i>
+  				</a>
+        </div>
+        <div class="card-content white-text">
+          <p>Android library to create a vertical seekbar.</p>
+        </div>
+        <div class="card-action">
+  				<a target="_blank" href="https://www.android.com" title="Platform">
+  					<img src="https://img.shields.io/badge/platform-Android-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://android-arsenal.com/api?level=21" title="API21+">
+  					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://github.com/GuepardoApps/library_VerticalSeekbarView" title="Build">
+  					<img src="https://img.shields.io/badge/build-passing-green.svg" />
+  				</a>
+  				<a target="_blank" href="https://github.com/GuepardoApps/library_VerticalSeekbarView" title="Version">
+  					<img src="https://img.shields.io/badge/version-v1.0.0.170628-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
+  					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
+  				</a>
+        </div>
+        <div class="card-action" style="text-align: right;">
+          <a href="/projects/VerticalSeekbarView">more...</a>
         </div>
       </div>
     </div>

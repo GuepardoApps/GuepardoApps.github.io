@@ -16,3 +16,7 @@ projects:
     url: /projects-passwordsafe/
   - title: "OpenWeather"
     url: /projects-openweather/
+  - title: "JoystickView"
+    url: /projects-joystickview/
+  - title: "VerticalSeekbarView"
+    url: /projects-verticalseekbarview/
