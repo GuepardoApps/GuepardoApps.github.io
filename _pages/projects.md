@@ -123,7 +123,7 @@ date: 2017-08-24T22:38:00+00:00
   				</a>
         </div>
         <div class="card-content white-text">
-          <p>Android application for creating notes and saving them to a database. Data is also provided using an floating bubble. Feature "Draw over other apps" is necessary! Feature can be disabled in settings!</p>
+          <p>Android application for creating notes and saving them to a database. Data is also provided using an floating bubble!</p>
         </div>
         <div class="card-action">
   				<a target="_blank" href="https://www.android.com" title="Platform">
@@ -141,6 +141,11 @@ date: 2017-08-24T22:38:00+00:00
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
   				</a>
+        </div>
+        <div class="card-action" style="text-align:center;">
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=guepardoapps.mynote">
+            <img src="/assets/images/projects/get_it_on_google_play.png"  style="width: 150px; height: 100%; padding:10px;">
+          </a>
         </div>
       </div>
     </div>
@@ -177,6 +182,11 @@ date: 2017-08-24T22:38:00+00:00
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
   				</a>
         </div>
+        <div class="card-action" style="text-align:center;">
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=guepardoapps.stopme">
+            <img src="/assets/images/projects/get_it_on_google_play.png"  style="width: 150px; height: 100%; padding:10px;">
+          </a>
+        </div>
       </div>
     </div>
 
@@ -211,6 +221,11 @@ date: 2017-08-24T22:38:00+00:00
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
   				</a>
+        </div>
+        <div class="card-action" style="text-align:center;">
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=guepardoapps.whosbirthday">
+            <img src="/assets/images/projects/get_it_on_google_play.png"  style="width: 150px; height: 100%; padding:10px;">
+          </a>
         </div>
       </div>
     </div>
@@ -247,23 +262,28 @@ date: 2017-08-24T22:38:00+00:00
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
   				</a>
         </div>
+        <div class="card-action" style="text-align:center;">
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=guepardoapps.bmicalculator">
+            <img src="/assets/images/projects/get_it_on_google_play.png"  style="width: 150px; height: 100%; padding:10px;">
+          </a>
+        </div>
       </div>
     </div>
 
     <div class="col s10 m3">
       <div class="card grey darken-1">
         <div class="card-image">
-          <img src="/assets/images/projects/heartratemonitor_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
-          <span class="card-title" style="position: absolute; right: 0; text-align:right;">HeartRateMonitor</span>
-          <a target="_blank" href="https://github.com/GuepardoApps/HeartRateMonitor/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+          <img src="/assets/images/projects/mynoteencrypted_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
+          <span class="card-title" style="position: absolute; right: 0; text-align:right;">MyNote Encrypted</span>
+          <a target="_blank" href="https://github.com/GuepardoApps/MyNoteEncrypted/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
             <i class="material-icons">save</i>
           </a>
-          <a target="_blank" href="https://github.com/GuepardoApps/HeartRateMonitor" class="btn-floating halfway-fab waves-effect waves-light blue">
+          <a target="_blank" href="https://github.com/GuepardoApps/MyNoteEncrypted" class="btn-floating halfway-fab waves-effect waves-light blue">
   					<i class="material-icons">open_in_new</i>
   				</a>
         </div>
         <div class="card-content white-text">
-          <p>Android application for measuring your pulse by using the camera of the phone. Permission to use camera!</p>
+          <p>Android application to store your very personal notes encrypted using sqlcipher.</p>
         </div>
         <div class="card-action">
   				<a target="_blank" href="https://www.android.com" title="Platform">
@@ -272,15 +292,21 @@ date: 2017-08-24T22:38:00+00:00
   				<a target="_blank" href="https://android-arsenal.com/api?level=21" title="API21+">
   					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/HeartRateMonitor" title="Build">
-  					<img src="https://img.shields.io/badge/build-success-green.svg" />
+  				<a target="_blank" href="https://github.com/GuepardoApps/MyNoteEncrypted/tree/master/release" title="Build">
+  					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/HeartRateMonitor" title="Version">
-  					<img src="https://img.shields.io/badge/version-v0.2.1.170823-blue.svg" />
+  				<a target="_blank" href="https://github.com/GuepardoApps/MyNoteEncrypted/tree/master/release/v1.0.0.170902.apk" title="Version">
+  					<img src="https://img.shields.io/badge/version-v1.0.0.170902-blue.svg" />
   				</a>
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
   				</a>
+        </div>
+        <div class="card-action" style="text-align: right;">
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=guepardoapps.mynoteencrypted">
+            <img src="/assets/images/projects/get_it_on_google_play.png"  style="width: 150px; height: 100%; padding:10px;">
+          </a>
+          <a href="/projects/MyNoteEncrypted">more...</a>
         </div>
       </div>
     </div>
@@ -364,17 +390,17 @@ date: 2017-08-24T22:38:00+00:00
     <div class="col s10 m3">
       <div class="card grey darken-1">
         <div class="card-image">
-          <img src="/assets/images/projects/mynoteencrypted_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
-          <span class="card-title" style="position: absolute; right: 0; text-align:right;">MyNote Encrypted</span>
-          <a target="_blank" href="https://github.com/GuepardoApps/MyNoteEncrypted/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+          <img src="/assets/images/projects/heartratemonitor_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
+          <span class="card-title" style="position: absolute; right: 0; text-align:right;">HeartRateMonitor</span>
+          <a target="_blank" href="https://github.com/GuepardoApps/HeartRateMonitor/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
             <i class="material-icons">save</i>
           </a>
-          <a target="_blank" href="https://github.com/GuepardoApps/MyNoteEncrypted" class="btn-floating halfway-fab waves-effect waves-light blue">
+          <a target="_blank" href="https://github.com/GuepardoApps/HeartRateMonitor" class="btn-floating halfway-fab waves-effect waves-light blue">
   					<i class="material-icons">open_in_new</i>
   				</a>
         </div>
         <div class="card-content white-text">
-          <p>Android application to store notifications encrypted using sqlcipher.</p>
+          <p>Android application for measuring your pulse by using the camera of the phone. Permission to use camera!</p>
         </div>
         <div class="card-action">
   				<a target="_blank" href="https://www.android.com" title="Platform">
@@ -383,18 +409,15 @@ date: 2017-08-24T22:38:00+00:00
   				<a target="_blank" href="https://android-arsenal.com/api?level=21" title="API21+">
   					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/MyNoteEncrypted/tree/master/release" title="Build">
-  					<img src="https://img.shields.io/badge/build-passing-green.svg" />
+  				<a target="_blank" href="https://github.com/GuepardoApps/HeartRateMonitor" title="Build">
+  					<img src="https://img.shields.io/badge/build-success-green.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/MyNoteEncrypted/tree/master/release/v1.0.0.170902.apk" title="Version">
-  					<img src="https://img.shields.io/badge/version-v1.0.0.170902-blue.svg" />
+  				<a target="_blank" href="https://github.com/GuepardoApps/HeartRateMonitor" title="Version">
+  					<img src="https://img.shields.io/badge/version-v0.2.1.170823-blue.svg" />
   				</a>
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
   				</a>
-        </div>
-        <div class="card-action" style="text-align: right;">
-          <a href="/projects/MyNoteEncrypted">more...</a>
         </div>
       </div>
     </div>

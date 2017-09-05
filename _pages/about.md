@@ -28,7 +28,7 @@ date: 2017-08-31T18:43:00+00:00
 
 				<p>
 				I do all of this in my free time as I do all of these projects on my own.
-				I studied medical engineering at the university of applied sciences in Jena and got my M.Sc. in 2016. During my studies I mostly worked with LabVIEW and a little bit of Matlab and C, C++.
+				I studied medical engineering at the university of applied sciences in Jena and got my M.Sc. in 2016. During my studies I mostly worked with LabVIEW. Further languages were Matlab and C, C++.
 				</p>
 
 				<p>
