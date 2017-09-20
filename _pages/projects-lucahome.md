@@ -42,7 +42,7 @@ date: 2017-08-23T21:47:00+00:00
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidApplication" title="Version">
-  					<img src="https://img.shields.io/badge/version-v4.4.2.170915-blue.svg" />
+  					<img src="https://img.shields.io/badge/version-v4.4.3.170920-blue.svg" />
   				</a>
   			</div>
   		</div>
@@ -82,10 +82,10 @@ date: 2017-08-23T21:47:00+00:00
   			<div class="card-image">
   				<img src="/assets/images/projects/lucahome_android_mediamirror_001.png">
   				<span class="card-title" style="position: absolute; right: 0; text-align:right;">Android mediamirror</span>
-          <a target="_blank" href="https://github.com/GuepardoApps/LucaHome-MediaServer/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+          <a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidApplication/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
             <i class="material-icons">save</i>
           </a>
-					<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-MediaServer" class="btn-floating halfway-fab waves-effect waves-light blue">
+					<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidApplication" class="btn-floating halfway-fab waves-effect waves-light blue">
 						<i class="material-icons">open_in_new</i>
 					</a>
   			</div>
@@ -99,11 +99,11 @@ date: 2017-08-23T21:47:00+00:00
   				<a target="_blank" href="https://android-arsenal.com/api?level=24" title="API24+">
   					<img src="https://img.shields.io/badge/API-24+-blue.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-MediaServer" title="Build">
+  				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidApplication" title="Build">
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-MediaServer" title="Version">
-  					<img src="https://img.shields.io/badge/version-v0.20.0.170629-blue.svg" />
+  				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidApplication" title="Version">
+  					<img src="https://img.shields.io/badge/version-v2.0.0.170920-blue.svg" />
   				</a>
   			</div>
   		</div>
