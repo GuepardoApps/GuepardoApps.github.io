@@ -103,7 +103,7 @@ date: 2017-08-23T21:47:00+00:00
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidApplication" title="Version">
-  					<img src="https://img.shields.io/badge/version-v2.0.0.170920-blue.svg" />
+  					<img src="https://img.shields.io/badge/version-v2.0.1.170921-blue.svg" />
   				</a>
   			</div>
   		</div>
