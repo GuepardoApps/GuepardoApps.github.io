@@ -74,7 +74,7 @@ date: 2017-08-23T19:44:00+00:00
   					<img src="https://img.shields.io/badge/build-success-green.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/GuepardoApps/PasswordSafe-AndroidClient" title="Version">
-  					<img src="https://img.shields.io/badge/version-v0.17.0.170823-blue.svg" />
+  					<img src="https://img.shields.io/badge/version-v0.18.0.170921-blue.svg" />
   				</a>
   			</div>
   		</div>
