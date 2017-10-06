@@ -87,11 +87,11 @@ date: 2017-08-31T18:43:00+00:00
 					  <div class="row-ceevee" style="margin-top: 55px;">
 			        <div class="twelve columns main-col">
 								<div class="bars">
-									<li><span class="bar-expand eighty-percent">80%</span><em>C# and WPF</em></li>
-									<li><span class="bar-expand ninety-percent">90%</span><em>Android</em></li>
-									<li><span class="bar-expand sixty-percent">60%</span><em>LabVIEW</em></li>
-									<li><span class="bar-expand sixty-percent">60%</span><em>Matlab and Simulink</em></li>
-									<li><span class="bar-expand fourty-percent">40%</span><em>HTML, CSS and AngularJS</em></li>
+									<li><span class="bar-expand seventy-percent">70%</span><em>C# and WPF</em></li>
+									<li><span class="bar-expand eighty-percent">80%</span><em>Android</em></li>
+									<li><span class="bar-expand fifty-percent">50%</span><em>LabVIEW</em></li>
+									<li><span class="bar-expand fifty-percent">50%</span><em>Matlab and Simulink</em></li>
+									<li><span class="bar-expand thirty-percent">30%</span><em>HTML, CSS and AngularJS</em></li>
 								</div>
 							</div>
 						</div>
@@ -106,11 +106,11 @@ date: 2017-08-31T18:43:00+00:00
 					  <div class="row-ceevee" style="margin-top: 55px;">
 			        <div class="twelve columns main-col">
 								<div class="bars">
-									<li><span class="bar-expand eighty-percent">80%</span><em>Visual Studio 2017</em></li>
-									<li><span class="bar-expand eighty-percent">80%</span><em>Android Studio 2 & 3</em></li>
-									<li><span class="bar-expand seventy-percent">70%</span><em>Eclipse</em></li>
-									<li><span class="bar-expand eighty-percent">80%</span><em>Atom</em></li>
-									<li><span class="bar-expand sixty-percent">60%</span><em>GitHub, TFS and SVN</em></li>
+									<li><span class="bar-expand seventy-percent">70%</span><em>Visual Studio 2017</em></li>
+									<li><span class="bar-expand seventy-percent">70%</span><em>Android Studio 2 & 3</em></li>
+									<li><span class="bar-expand fifty-percent">50%</span><em>Eclipse</em></li>
+									<li><span class="bar-expand seventy-percent">70%</span><em>Atom</em></li>
+									<li><span class="bar-expand fifty-percent">50%</span><em>GitHub, TFS and SVN</em></li>
 								</div>
 							</div>
 						</div>
@@ -129,10 +129,10 @@ date: 2017-08-31T18:43:00+00:00
 						<div class="row-ceevee" style="margin-top: 55px;">
 							<div class="twelve columns main-col">
 								<div class="bars">
-									<li><span class="bar-expand ninety-percent">90%</span><em>MS Word</em></li>
-									<li><span class="bar-expand ninety-percent">90%</span><em>MS Excel</em></li>
-									<li><span class="bar-expand ninety-percent">90%</span><em>MS PowerPoint</em></li>
-									<li><span class="bar-expand thirty-percent">30%</span><em>MS Visio</em></li>
+									<li><span class="bar-expand eighty-percent">80%</span><em>MS Word</em></li>
+									<li><span class="bar-expand eighty-percent">80%</span><em>MS Excel</em></li>
+									<li><span class="bar-expand eighty-percent">80%</span><em>MS PowerPoint</em></li>
+									<li><span class="bar-expand twenty-percent">20%</span><em>MS Visio</em></li>
 								</div>
 							</div>
 						</div>
@@ -176,6 +176,10 @@ date: 2017-08-31T18:43:00+00:00
 		</div>
 
 	</div>
+
+	<!-- Lebenslauf -->
+
+	<h2 style="width: 100%; text-align: center;">Curriculum vitae</h2>
 
 	<section class="timeline">
 
@@ -297,6 +301,153 @@ date: 2017-08-31T18:43:00+00:00
 
 	  </div>
 	</section>
+
+	<!-- Projekte -->
+
+	<h2 style="width: 100%; text-align: center;">Projects</h2>
+
+	<div>
+	  <div class="row" >
+
+	    <div class="col s5 m3">
+	      <div class="card grey darken-1">
+	        <div class="card-image">
+	          <img src="/assets/images/resume/projects/simulink.png" style="width: 150px; height: 150px; padding:5px;">
+	          <span class="card-title" style="position: absolute; right: 0; text-align:right;">Model based simulation with Matlab/Simulink, Automotive</span>
+	        </div>
+	        <div class="card-content white-text">
+	          <p>December 2016 - November 2017</p>
+	        </div>
+	        <div class="card-action">
+	  				<a target="_blank" href="https://de.mathworks.com/products/simulink.html" title="Technology">
+	  					<img src="https://img.shields.io/badge/technology-Matlab/Simulink-blue.svg" />
+	  				</a>
+	      </div>
+	    </div>
+		</div>
+
+	    <div class="col s5 m3">
+	      <div class="card grey darken-1">
+	        <div class="card-image">
+	          <img src="/assets/images/resume/projects/wpf.png" style="width: 150px; height: 150px; padding:5px;">
+	          <span class="card-title" style="position: absolute; right: 0; text-align:right; color: black;">Development of an application for medical products, based on WPF</span>
+	        </div>
+	        <div class="card-content white-text">
+	          <p>July 2016 - October 2016</p>
+	        </div>
+	        <div class="card-action">
+	  				<a target="_blank" href="https://de.wikipedia.org/wiki/Windows_Presentation_Foundation" title="Technology">
+	  					<img src="https://img.shields.io/badge/technology-WPF-blue.svg" />
+	  				</a>
+	      </div>
+	    </div>
+		</div>
+
+	    <div class="col s5 m3">
+	      <div class="card grey darken-1">
+	        <div class="card-image">
+	          <img src="/assets/images/resume/projects/qt.png" style="width: 150px; height: 150px; padding:5px;">
+	          <span class="card-title" style="position: absolute; right: 0; text-align:right;">Development of a teststand for a medical device, project management tasks</span>
+	        </div>
+	        <div class="card-content white-text">
+	          <p>March 2016 - October 2016</p>
+	        </div>
+	        <div class="card-action">
+	  				<a target="_blank" href="https://www.qt.io/" title="Technology">
+	  					<img src="https://img.shields.io/badge/technology-QT-blue.svg" />
+	  				</a>
+	  				<a target="_blank" href="https://www.python.org/" title="Technology">
+	  					<img src="https://img.shields.io/badge/technology-Python-blue.svg" />
+	  				</a>
+	      </div>
+	    </div>
+		</div>
+
+	    <div class="col s5 m3">
+	      <div class="card grey darken-1">
+	        <div class="card-image">
+	          <img src="/assets/images/resume/projects/thefloat.png" style="width: 150px; height: 150px; padding:5px;">
+	          <span class="card-title" style="position: absolute; right: 0; text-align:right;">Frontend and backend development for a medical robot</span>
+	        </div>
+	        <div class="card-content white-text">
+	          <p>January 2016 - June 2016</p>
+	        </div>
+	        <div class="card-action">
+	  				<a target="_blank" href="https://de.wikipedia.org/wiki/C-Sharp" title="Technology">
+	  					<img src="https://img.shields.io/badge/technology-C%23-blue.svg" />
+	  				</a>
+	  				<a target="_blank" href="https://de.wikipedia.org/wiki/Entity_Framework" title="Technology">
+	  					<img src="https://img.shields.io/badge/technology-EntityFramwork-blue.svg" />
+	  				</a>
+	  				<a target="_blank" href="https://angular.io/" title="Technology">
+	  					<img src="https://img.shields.io/badge/technology-Angular-blue.svg" />
+	  				</a>
+	      </div>
+	    </div>
+		</div>
+
+	    <div class="col s5 m3">
+	      <div class="card grey darken-1">
+	        <div class="card-image">
+	          <img src="/assets/images/resume/projects/labview.png" style="width: 150px; height: 150px; padding:5px;">
+	          <span class="card-title" style="position: absolute; right: 0; text-align:right;">Modular teststand for critical medical devices</span>
+	        </div>
+	        <div class="card-content white-text">
+	          <p>April 2015 - December 2015</p>
+	        </div>
+	        <div class="card-action">
+	  				<a target="_blank" href="http://www.ni.com/de-de/shop/labview.html" title="Technology">
+	  					<img src="https://img.shields.io/badge/technology-LabVIEW-blue.svg" />
+	  				</a>
+	  				<a target="_blank" href="https://www.ruby-lang.org/de/" title="Technology">
+	  					<img src="https://img.shields.io/badge/technology-Ruby-blue.svg" />
+	  				</a>
+	  				<a target="_blank" href="https://cucumber.io/" title="Technology">
+	  					<img src="https://img.shields.io/badge/technology-Cucumber-blue.svg" />
+	  				</a>
+	      </div>
+	    </div>
+		</div>
+
+	    <div class="col s5 m3">
+	      <div class="card grey darken-1">
+	        <div class="card-image">
+	          <img src="/assets/images/resume/projects/usphantom.png" style="width: 150px; height: 150px; padding:5px;">
+	          <span class="card-title" style="position: absolute; right: 0; text-align:right;">Ultrasonic phantom based on LabVIEW</span>
+	        </div>
+	        <div class="card-content white-text">
+	          <p>November 2013 - January 2015</p>
+	        </div>
+	        <div class="card-action">
+	  				<a target="_blank" href="http://www.ni.com/de-de/shop/labview.html" title="Technology">
+	  					<img src="https://img.shields.io/badge/technology-LabVIEW-blue.svg" />
+	  				</a>
+	      </div>
+	    </div>
+		</div>
+
+	    <div class="col s5 m3">
+	      <div class="card grey darken-1">
+	        <div class="card-image">
+	          <img src="/assets/images/resume/projects/arduino.png" style="width: 150px; height: 150px; padding:5px;">
+	          <span class="card-title" style="position: absolute; right: 0; text-align:right; color:black;">Additional development for a automatic quality tests for medical products</span>
+	        </div>
+	        <div class="card-content white-text">
+	          <p>February 2013 - July 2013</p>
+	        </div>
+	        <div class="card-action">
+	  				<a target="_blank" href="https://www.arduino.cc/" title="Technology">
+	  					<img src="https://img.shields.io/badge/technology-Arduino-blue.svg" />
+	  				</a>
+	  				<a target="_blank" href="http://www.david-3d.com/en/support/david4/sls-overview" title="Technology">
+	  					<img src="https://img.shields.io/badge/technology-DavidLaserScanning-blue.svg" />
+	  				</a>
+	      </div>
+	    </div>
+		</div>
+
+		</div>
+	</div>
 
 	<section id="portfolio">
 	   <div class="row-ceevee">
