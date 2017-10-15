@@ -163,7 +163,7 @@ date: 2017-08-24T22:38:00+00:00
   				</a>
         </div>
         <div class="card-content white-text">
-          <p>Simple android application with material design to save the amount of coins you have and to checkthe value for each coins.Furthermore you get the trend of the last 24h.</p>
+          <p>Android app to save the amount of coins you have and to checkthe value for each coins.Trend of the last 24h.</p>
         </div>
         <div class="card-action">
   				<a target="_blank" href="https://www.android.com" title="Platform">
@@ -181,6 +181,11 @@ date: 2017-08-24T22:38:00+00:00
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
   				</a>
+        </div>
+        <div class="card-action" style="text-align:center;">
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=guepardoapps.mycoins">
+            <img src="/assets/images/projects/get_it_on_google_play.png"  style="width: 150px; height: 100%; padding:10px;">
+          </a>
         </div>
       </div>
     </div>
