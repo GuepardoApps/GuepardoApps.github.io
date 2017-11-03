@@ -71,7 +71,7 @@ date: 2017-08-23T21:47:00+00:00
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-WPFApplication" title="Version">
-  					<img src="https://img.shields.io/badge/version-v1.3.4.17269-blue.svg" />
+  					<img src="https://img.shields.io/badge/version-v1.3.5.17307-blue.svg" />
   				</a>
   			</div>
   		</div>
