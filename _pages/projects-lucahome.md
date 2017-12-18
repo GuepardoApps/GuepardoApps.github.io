@@ -39,10 +39,10 @@ date: 2017-08-23T21:47:00+00:00
   					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidApplication" title="Build">
-  					<img src="https://img.shields.io/badge/build-passing-green.svg" />
+  					<img src="https://img.shields.io/badge/build-fail-red.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidApplication" title="Version">
-  					<img src="https://img.shields.io/badge/version-v4.6.1.171115-blue.svg" />
+  					<img src="https://img.shields.io/badge/version-v5.0.0.171219-blue.svg" />
   				</a>
   			</div>
   		</div>
@@ -100,10 +100,10 @@ date: 2017-08-23T21:47:00+00:00
   					<img src="https://img.shields.io/badge/API-24+-blue.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidApplication" title="Build">
-  					<img src="https://img.shields.io/badge/build-passing-green.svg" />
+  					<img src="https://img.shields.io/badge/build-fail-red.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidApplication" title="Version">
-  					<img src="https://img.shields.io/badge/version-v2.0.2.170923-blue.svg" />
+  					<img src="https://img.shields.io/badge/version-v5.0.0.171219-blue.svg" />
   				</a>
   			</div>
   		</div>
