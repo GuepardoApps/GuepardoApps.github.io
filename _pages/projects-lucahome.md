@@ -134,7 +134,7 @@ date: 2017-08-23T21:47:00+00:00
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-RaspberryServer" title="Version">
-  					<img src="https://img.shields.io/badge/version-v5.1.3.180102-blue.svg" />
+  					<img src="https://img.shields.io/badge/version-v5.2.0.180103-blue.svg" />
   				</a>
   			</div>
   		</div>
@@ -160,7 +160,7 @@ date: 2017-08-23T21:47:00+00:00
   					<img src="https://img.shields.io/badge/platform-Raspberry-blue.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-Website" title="Version">
-  					<img src="https://img.shields.io/badge/version-v5.1.1.171228-blue.svg" />
+  					<img src="https://img.shields.io/badge/version-v5.2.0.180103-blue.svg" />
   				</a>
   			</div>
   		</div>
