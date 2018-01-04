@@ -42,7 +42,7 @@ date: 2017-08-23T21:47:00+00:00
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidApplication" title="Version">
-  					<img src="https://img.shields.io/badge/version-v5.1.1.180102-blue.svg" />
+  					<img src="https://img.shields.io/badge/version-v5.2.0.180104-blue.svg" />
   				</a>
   			</div>
   		</div>
@@ -103,7 +103,7 @@ date: 2017-08-23T21:47:00+00:00
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidApplication" title="Version">
-  					<img src="https://img.shields.io/badge/version-v5.1.1.180102-blue.svg" />
+  					<img src="https://img.shields.io/badge/version-v5.2.0.180104-blue.svg" />
   				</a>
   			</div>
   		</div>
