@@ -35,8 +35,8 @@ date: 2017-08-23T21:47:00+00:00
   				<a target="_blank" href="https://www.android.com" title="Platform">
   					<img src="https://img.shields.io/badge/platform-Android-blue.svg" />
   				</a>
-  				<a target="_blank" href="https://android-arsenal.com/api?level=21" title="API21+">
-  					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
+  				<a target="_blank" href="https://android-arsenal.com/api?level=24" title="API24+">
+  					<img src="https://img.shields.io/badge/API-24+-blue.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/GuepardoApps/LucaHome-AndroidApplication" title="Build">
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
