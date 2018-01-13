@@ -98,7 +98,7 @@ date: 2017-08-24T22:38:00+00:00
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/GuepardoApps/library_OpenWeather" title="Version">
-  					<img src="https://img.shields.io/badge/version-v0.13.1.180105-blue.svg" />
+  					<img src="https://img.shields.io/badge/version-v0.14.0.180113-blue.svg" />
   				</a>
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
