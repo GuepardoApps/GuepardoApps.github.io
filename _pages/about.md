@@ -58,7 +58,7 @@ date: 2017-08-31T18:43:00+00:00
 					</p>
 
 					<p>
-					Currently I am working for a car modelling software company and do lot of stuff with Matlab and Simulink.
+					Currently I am working for a software company in Nuremberg as a junior software developer. I work in a project where we use Angular and .Net Core.
 					</p>
 				</div>
 
@@ -87,11 +87,10 @@ date: 2017-08-31T18:43:00+00:00
 					  <div class="row-ceevee" style="margin-top: 55px;">
 			        <div class="twelve columns main-col">
 								<div class="bars">
-									<li><span class="bar-expand seventy-percent">70%</span><em>C# and WPF</em></li>
+									<li><span class="bar-expand eighty-percent">80%</span><em>C#, .Net and WPF</em></li>
 									<li><span class="bar-expand eighty-percent">80%</span><em>Android</em></li>
-									<li><span class="bar-expand fifty-percent">50%</span><em>LabVIEW</em></li>
-									<li><span class="bar-expand fifty-percent">50%</span><em>Matlab and Simulink</em></li>
-									<li><span class="bar-expand thirty-percent">30%</span><em>HTML, CSS and AngularJS</em></li>
+									<li><span class="bar-expand sixty-percent">60%</span><em>Angular and TypeScript</em></li>
+									<li><span class="bar-expand fifty-percent">50%</span><em>HTML, CSS and JavaScript</em></li>
 								</div>
 							</div>
 						</div>
@@ -106,11 +105,10 @@ date: 2017-08-31T18:43:00+00:00
 					  <div class="row-ceevee" style="margin-top: 55px;">
 			        <div class="twelve columns main-col">
 								<div class="bars">
-									<li><span class="bar-expand seventy-percent">70%</span><em>Visual Studio 2017</em></li>
-									<li><span class="bar-expand seventy-percent">70%</span><em>Android Studio 2 & 3</em></li>
-									<li><span class="bar-expand fifty-percent">50%</span><em>Eclipse</em></li>
-									<li><span class="bar-expand seventy-percent">70%</span><em>Atom</em></li>
-									<li><span class="bar-expand fifty-percent">50%</span><em>GitHub, TFS and SVN</em></li>
+									<li><span class="bar-expand eighty-percent">80%</span><em>Visual Studio 2017</em></li>
+									<li><span class="bar-expand sixty-percent">60%</span><em>Android Studio 3</em></li>
+									<li><span class="bar-expand fourty-percent">40%</span><em>Atom</em></li>
+									<li><span class="bar-expand seventy-percent">70%</span><em>GitHub and TFS</em></li>
 								</div>
 							</div>
 						</div>
@@ -132,7 +130,7 @@ date: 2017-08-31T18:43:00+00:00
 									<li><span class="bar-expand eighty-percent">80%</span><em>MS Word</em></li>
 									<li><span class="bar-expand eighty-percent">80%</span><em>MS Excel</em></li>
 									<li><span class="bar-expand eighty-percent">80%</span><em>MS PowerPoint</em></li>
-									<li><span class="bar-expand twenty-percent">20%</span><em>MS Visio</em></li>
+									<li><span class="bar-expand ten-percent">10%</span><em>MS Visio</em></li>
 								</div>
 							</div>
 						</div>
@@ -148,8 +146,8 @@ date: 2017-08-31T18:43:00+00:00
 			        <div class="twelve columns main-col">
 								<div class="bars">
 									<li><span class="bar-expand one-hundred-percent">100%</span><em>German</em></li>
-									<li><span class="bar-expand seventy-percent">70%</span><em>English</em></li>
-									<li><span class="bar-expand ten-percent">10%</span><em>Spanish</em></li>
+									<li><span class="bar-expand eighty-percent">80%</span><em>English</em></li>
+									<li><span class="bar-expand twenty-percent">20%</span><em>Spanish</em></li>
 								</div>
 							</div>
 						</div>
@@ -189,6 +187,18 @@ date: 2017-08-31T18:43:00+00:00
 	      <div class="timeline-img"></div>
 	      <div class="timeline-content js--fadeInLeft">
 	        <div class="timeline-img-header">
+		        <h2>Working at Conplement AG</h2>
+	        </div>
+		      <div class="date">January 2018 - today</div>
+	        <p>Since January 2018 I am working for Conplement AG. Here I am working as a web developer using Angular, .net Core and more fancy stuff.</p>
+	        <a class="bnt-more" target="_blank" href="https://www.conplement.de/">Conplement AG</a>
+	      </div>
+	    </div>
+
+			<div class="timeline-item">
+	      <div class="timeline-img"></div>
+	      <div class="timeline-content js--fadeInRight">
+	        <div class="timeline-img-header">
 		        <h2>Working at ITK engineering GmbH</h2>
 	        </div>
 		      <div class="date">December 2016 - November 2017</div>
@@ -199,7 +209,7 @@ date: 2017-08-31T18:43:00+00:00
 
 			<div class="timeline-item">
 	      <div class="timeline-img"></div>
-	      <div class="timeline-content timeline-card js--fadeInRight">
+	      <div class="timeline-content timeline-card js--fadeInLeft">
 	        <div class="timeline-img-header">
 	          <h2>Working at infoteam Software AG</h2>
 	        </div>
@@ -213,7 +223,7 @@ date: 2017-08-31T18:43:00+00:00
 
 			<div class="timeline-item">
 	      <div class="timeline-img"></div>
-	      <div class="timeline-content js--fadeInLeft">
+	      <div class="timeline-content js--fadeInRight">
 	        <div class="timeline-img-header">
 	          <h2>Medical engineering, M.Sc.</h2>
 	        </div>
@@ -227,7 +237,7 @@ date: 2017-08-31T18:43:00+00:00
 
 			<div class="timeline-item">
 	      <div class="timeline-img"></div>
-	      <div class="timeline-content timeline-card js--fadeInRight">
+	      <div class="timeline-content timeline-card js--fadeInLeft">
 	        <div class="timeline-img-header">
 	          <h2>Medical engineering, B. Eng.</h2>
 	        </div>
@@ -241,7 +251,7 @@ date: 2017-08-31T18:43:00+00:00
 
 			<div class="timeline-item">
 	      <div class="timeline-img"></div>
-	      <div class="timeline-content js--fadeInLeft">
+	      <div class="timeline-content js--fadeInRight">
 	        <div class="timeline-img-header">
 	          <h2>2nd internship</h2>
 	        </div>
@@ -253,7 +263,7 @@ date: 2017-08-31T18:43:00+00:00
 
 	    <div class="timeline-item">
 	      <div class="timeline-img"></div>
-	      <div class="timeline-content timeline-card js--fadeInRight">
+	      <div class="timeline-content timeline-card js--fadeInLeft">
 	        <div class="timeline-img-header">
 	          <h2>1st internship</h2>
 	        </div>
@@ -265,7 +275,7 @@ date: 2017-08-31T18:43:00+00:00
 
 	    <div class="timeline-item">
 	      <div class="timeline-img"></div>
-	      <div class="timeline-content js--fadeInLeft">
+	      <div class="timeline-content js--fadeInRight">
 	        <div class="timeline-img-header">
 	          <h2>Community service at the HPT Helmbrechts</h2>
 	        </div>
@@ -277,7 +287,7 @@ date: 2017-08-31T18:43:00+00:00
 
 	    <div class="timeline-item">
 	      <div class="timeline-img"></div>
-	      <div class="timeline-content timeline-card js--fadeInRight">
+	      <div class="timeline-content timeline-card js--fadeInLeft">
 	        <div class="timeline-img-header">
 	          <h2>Secondary school in Hof a.d. Saale</h2>
 	        </div>
@@ -289,7 +299,7 @@ date: 2017-08-31T18:43:00+00:00
 
 	    <div class="timeline-item">
 	      <div class="timeline-img"></div>
-	      <div class="timeline-content js--fadeInLeft">
+	      <div class="timeline-content js--fadeInRight">
 	        <div class="timeline-img-header">
 	          <h2>Secondary school in Münchberg</h2>
 	        </div>
@@ -308,6 +318,26 @@ date: 2017-08-31T18:43:00+00:00
 
 	<div>
 	  <div class="row" >
+
+	    <div class="col s5 m3">
+	      <div class="card grey darken-1">
+	        <div class="card-image">
+	          <img src="/assets/images/resume/projects/angular.png" style="width: 150px; height: 150px; padding:5px;">
+	          <span class="card-title" style="position: absolute; right: 0; text-align:right;">Web development with Angular, TypeScript and .Net Core</span>
+	        </div>
+	        <div class="card-content white-text">
+	          <p>January 2018 - today</p>
+	        </div>
+	        <div class="card-action">
+	  				<a target="_blank" href="https://angular.io/" title="Technology">
+	  					<img src="https://img.shields.io/badge/technology-Angular-red.svg" />
+	  				</a>
+	  				<a target="_blank" href="https://www.microsoft.com/net/learn/get-started/windows" title="Technology">
+		  				<img src="https://img.shields.io/badge/technology-.NetCore-blue.svg" />
+	  				</a>
+	      </div>
+	    </div>
+		</div>
 
 	    <div class="col s5 m3">
 	      <div class="card grey darken-1">
