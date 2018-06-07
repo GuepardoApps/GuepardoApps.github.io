@@ -88,7 +88,7 @@ date: 2017-08-31T18:43:00+00:00
 			        <div class="twelve columns main-col">
 								<div class="bars">
 									<li><span class="bar-expand eighty-percent">80%</span><em>C#, .Net and WPF</em></li>
-									<li><span class="bar-expand eighty-percent">90%</span><em>Android (Java & Kotlin)</em></li>
+									<li><span class="bar-expand ninety-percent">90%</span><em>Android (Java & Kotlin)</em></li>
 									<li><span class="bar-expand ninety-percent">90%</span><em>Angular and TypeScript</em></li>
 									<li><span class="bar-expand eighty-percent">80%</span><em>HTML, CSS and JavaScript</em></li>
 								</div>
