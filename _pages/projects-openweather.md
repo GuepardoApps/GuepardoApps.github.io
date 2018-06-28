@@ -32,28 +32,23 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         ...
 
-        openWeatherService = OpenWeatherService(this)
+        openWeatherService = OpenWeatherService.instance
+        openWeatherService.initialize(this)
 		
         // Set ApiKey
-        openWeatherService.setApiKey("") // TODO Add ApiKey
+        openWeatherService.apiKey = "" // TODO Add ApiKey
 		
         // Set your preferred city
-        openWeatherService.setCity("Nuremberg")
+        openWeatherService.city = "Nuremberg"
 		
         // Enable/Disable notifications
-        openWeatherService.setNotificationEnabled(true)
-		
-        // Enable/Disable reload of data
-        openWeatherService.setReloadEnabled(true
-		
-        // Set timeout of reload of data
-        openWeatherService.setReloadTimeout(30 * 60 * 1000)
+        openWeatherService.notificationEnabled = true
 		
         // Enable/Disable set of wallpaper
-        openWeatherService.setWallpaperEnabled(true)
+        openWeatherService.wallpaperEnabled = true
 		
         // Set receiver for notifications
-        openWeatherService.setReceiverActivity(MainActivity::class.java)
+        openWeatherService.receiverActivity = MainActivity::class.java
 		
         // Set OnWeatherUpdateListener
         openWeatherService.setOnWeatherUpdateListener(object : OnWeatherUpdateListener {
@@ -66,11 +61,11 @@ public class MainActivity extends Activity {
             }
         })
 
-        // Load the current weather
-        openWeatherService.loadCurrentWeather()
+        // Enable/Disable reload of data
+        openWeatherService.reloadEnabled = true
 		
-        // Load the forecast weather
-        openWeatherService.loadForecastWeather()
+        // Set timeout of reload of data
+        openWeatherService.reloadTimeout = 30 * 60 * 1000
 		
         ...
     }
