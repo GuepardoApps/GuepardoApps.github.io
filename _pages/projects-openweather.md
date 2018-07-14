@@ -17,57 +17,70 @@ date: 2018-06-05T21:42:00+00:00
 First you have to register an account at [OpenWeatherMap.org](http://www.openweathermap.org/) and receive an API key.
 This key is an important parameter of the OpenWeatherService!
 
-The easiest way to integrate the library is to use the OpenWeatherService and to register the OnWeatherUpdateListener
-After registering your Receiver, you call for the data.
+The easiest way to integrate the library is to use the OpenWeatherService and to subscribe on weatherCurrentPublishSubject and weatherForecastPublishSubject using ReactiveX2
 
 ```java
-public class MainActivity extends Activity {
+class MainActivity : AppCompatActivity() {
 
-    ...
-    private lateinit var openWeatherService: OpenWeatherService
-    ...
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState);
         ...
 
-        openWeatherService = OpenWeatherService.instance
-        openWeatherService.initialize(this)
+        OpenWeatherService.instance.initialize(this)
 		
-        // Set ApiKey
-        openWeatherService.apiKey = "" // TODO Add ApiKey
+        OpenWeatherService.instance.apiKey = getString(R.string.openweather_api_key)    // Set ApiKey => Will be read from xml file
+        OpenWeatherService.instance.city = getString(R.string.openweather_city)         // Set your preferred city
+        OpenWeatherService.instance.notificationEnabled = true                          // Enable/Disable notifications
+        OpenWeatherService.instance.wallpaperEnabled = true                             // Enable/Disable set of wallpaper
+        OpenWeatherService.instance.receiverActivity = MainActivity::class.java         // Set receiver for notifications
+        OpenWeatherService.instance.reloadEnabled = true                                // Enable/Disable reload of data
+        OpenWeatherService.instance.reloadTimeout = 30 * 60 * 1000                      // Set timeout of reload of data in millisecond
 		
-        // Set your preferred city
-        openWeatherService.city = "Nuremberg"
+        // Subscribe on weatherCurrentPublishSubject (Using ReactiveX2)
+        OpenWeatherService.instance.weatherCurrentPublishSubject
+            .subscribeOn(Schedulers.io())
+            .subscribe(
+                {
+                    response -> TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+                },
+                {
+                    responseError -> TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+                }
+            )
+
+        // Subscribe on weatherForecastPublishSubject (Using ReactiveX2)
+        OpenWeatherService.instance.weatherForecastPublishSubject
+            .subscribeOn(Schedulers.io())
+            .subscribe(
+                {
+                    response -> TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+                },
+                {
+                    responseError -> TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+                }
+            )
 		
-        // Enable/Disable notifications
-        openWeatherService.notificationEnabled = true
-		
-        // Enable/Disable set of wallpaper
-        openWeatherService.wallpaperEnabled = true
-		
-        // Set receiver for notifications
-        openWeatherService.receiverActivity = MainActivity::class.java
-		
-        // Set OnWeatherUpdateListener
-        openWeatherService.setOnWeatherUpdateListener(object : OnWeatherUpdateListener {
-            override fun onCurrentWeather(currentWeather: IWeatherCurrent?, success: Boolean) {
+        // Set onWeatherServiceListener (DEPRECATED)
+        OpenWeatherService.instance.onWeatherServiceListener = (object : OnWeatherServiceListener {
+            override fun onCurrentWeather(currentWeather: WeatherCurrent?, success: Boolean) {
                 TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
             }
 
-            override fun onForecastWeather(forecastWeather: IWeatherForecast?, success: Boolean) {
+            override fun onForecastWeather(forecastWeather: WeatherForecast?, success: Boolean) {
                 TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
             }
         })
 
-        // Enable/Disable reload of data
-        openWeatherService.reloadEnabled = true
-		
-        // Set timeout of reload of data
-        openWeatherService.reloadTimeout = 30 * 60 * 1000
-		
+        // Finally start everything (IMPORTANT)
+        OpenWeatherService.instance.start()
+
         ...
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+
+        OpenWeatherService.instance.dispose() // Dispose the service
     }
 }
 ```
@@ -75,27 +88,50 @@ public class MainActivity extends Activity {
 To display received data use the customadapter in the library
 
 ```java
-public class MainActivity extends Activity {
+class MainActivity : AppCompatActivity() {
+
     ...
-    openWeatherService.setOnWeatherUpdateListener(object : OnWeatherUpdateListener {
-	    ...
-        override fun onForecastWeather(forecastWeather: IWeatherForecast?, success: Boolean) {
-            if (success) {
-                this.forecastWeather = forecastWeather!!
-                val forecastList = forecastWeather.getList()
-                if (forecastList.isNotEmpty()) {
-                    val adapter = ForecastListAdapter(this, forecastList)
-                    listView.adapter = adapter
-                    mainImageView.setImageResource(forecastWeather.getMostWeatherCondition().wallpaperId)
-                } else {
-                    Logger.instance.warning(tag, "forecastList is empty")
-                }
-            } else {
-                Logger.instance.warning(tag, "onForecastWeather download was  not successfully")
-                Toasty.warning(context, "onForecastWeather download was  not successfully", Toast.LENGTH_LONG).show()
+    // Subscribe on weatherForecastPublishSubject (Using ReactiveX2)
+    OpenWeatherService.instance.weatherForecastPublishSubject
+        .subscribeOn(Schedulers.io())
+        .subscribe(
+            {
+                response -> 
+                    if (response.value != null) {
+                        val data = response.value as WeatherForecast
+                        val list = data.list
+                        if (list.isNotEmpty()) {
+                            val adapter = ForecastListAdapter(this, list)
+                            listView.adapter = adapter
+                            mainImageView.setImageResource(forecastWeather.getMostWeatherCondition().wallpaperId)
+                        } else {
+                            Logger.instance.warning(tag, "list is empty")
+                        }
+                    } else {
+                        Logger.instance.warning(tag, "weather forecast subscribe was  not successfully")
+                    }
+            },
+            {
+                responseError -> // TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
             }
-        }
-    })
+        )
     ...
 }
 ```
+
+# Libraries
+
+- com.baoyz.pullrefreshlayout:library:1.2.0
+- com.flaviofaria:kenburnsview:1.0.7
+- com.github.florent37:expansionpanel:1.1.1
+- com.github.GrenderG:Toasty:1.2.5
+- com.github.matecode:Snacky:1.0.2
+- com.github.rey5137:material:1.2.4
+- com.squareup.okhttp3:okhttp:3.9.1
+
+- io.reactivex.rxjava2:rxkotlin:2.2.0
+
+- com.android.support.constraint:constraint-layout:1.1.2
+- using also latest API28 libs
+
+- and some more
