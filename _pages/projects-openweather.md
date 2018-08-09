@@ -134,4 +134,6 @@ class MainActivity : AppCompatActivity() {
 - com.android.support.constraint:constraint-layout:1.1.2
 - using also latest API28 libs
 
+- tests based on mockito and spek
+
 - and some more
