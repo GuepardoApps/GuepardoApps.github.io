@@ -4,7 +4,7 @@ title: Projects - JoystickView
 permalink: /projects/JoystickView
 render: dynamic
 author_profile: false
-date: 2017-09-02T12:30:00+00:00
+date: 2018-08-11T00:17:00+00:00
 ---
 
 <div style="width: 100%;text-align: center;margin:15px;text-decoration: underline;">
@@ -60,35 +60,43 @@ An example application is given in this project!
 ```java
 package guepardoapps.joystickexample;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.widget.TextView;
+import android.graphics.Color
+import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
+import android.util.Log
+import android.widget.TextView
+import guepardoapps.library.joystickview.JoystickView
+import guepardoapps.library.joystickview.extensions.doubleFormat
+import guepardoapps.library.joystickview.styles.JoystickViewStyle
+import io.reactivex.schedulers.Schedulers
 
-import guepardoapps.library.joystickview.JoystickView;
-import guepardoapps.library.joystickview.enums.JoystickStyleEnum;
-import guepardoapps.library.joystickview.interfaces.OnJoystickMoveListener;
+class MainActivity : AppCompatActivity() {
+    private val tag: String = MainActivity::class.java.simpleName
 
-public class MainActivity extends AppCompatActivity {
+    private val loopInterval: Long = 250
 
-    private static final long LOOP_INTERVAL = 250;
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        val valueView = findViewById<TextView>(R.id.valueView)
+        val defaultText = "0.0 and 0.0"
+        valueView.text = defaultText
 
-        final TextView valueView = (TextView) findViewById(R.id.valueView);
-        valueView.setText(String.valueOf(0));
-
-        JoystickView joyStickView = (JoystickView) findViewById(R.id.valueControl);
-        joyStickView.SetStyle(JoystickStyleEnum.DEFAULT);
-        joyStickView.setOnJoystickMoveListener(new OnJoystickMoveListener() {
-            @Override
-            public void onValueChanged(int powerX, int powerY) {
-                // Returns a value between -100 and 100
-                valueView.setText(String.valueOf(powerX) + " and " + String.valueOf(powerY));
-            }
-        }, LOOP_INTERVAL);
+        val joyStickView = findViewById<JoystickView>(R.id.valueControl)
+        joyStickView.setStyle(JoystickViewStyle(Color.LTGRAY, Color.BLACK, Color.BLACK, Color.BLACK, Color.BLACK, Color.BLACK, Color.RED, true))
+        joyStickView.setLoopInterval(loopInterval)
+        joyStickView.positionPublishSubject
+                .subscribeOn(Schedulers.io())
+                .subscribe(
+                        { response ->
+                            val text = "${response.x.doubleFormat(2)} and ${response.y.doubleFormat(2)}"
+                            valueView.text = text
+                        },
+                        { throwable ->
+                            Log.e(tag, throwable.toString())
+                        }
+                )
     }
 }
 
@@ -100,15 +108,18 @@ Following styles are given:
 ```java
 package guepardoapps.library.joystickview.enums;
 
-import android.graphics.Color;
+import android.graphics.Color
+import guepardoapps.library.joystickview.styles.JoystickViewStyle
 
-import guepardoapps.library.joystickview.constants.Enables;
-import guepardoapps.library.joystickview.styles.JoystickViewStyle;
-import guepardoapps.library.joystickview.tools.Logger;
+class Defaults {
+    companion object {
+        ...
 
-public enum JoystickStyleEnum {
-
-    public static JoystickViewStyle DEFAULT = new JoystickViewStyle(0, "Default", Color.WHITE, Color.BLACK, Color.BLACK, Color.BLACK, Color.RED, Color.BLACK, Color.RED, true);
+        /*
+         * default style
+         */
+        val style: JoystickViewStyle = JoystickViewStyle(Color.WHITE, Color.BLACK, Color.BLACK, Color.BLACK, Color.RED, Color.BLACK, Color.RED, true)
+    }
 }
 ```
 
@@ -118,100 +129,20 @@ Styles are based on the class JoystickViewStyle in package guepardoapps.library.
 ```java
 package guepardoapps.library.joystickview.styles;
 
-import android.support.annotation.NonNull;
-
-import guepardoapps.library.joystickview.tools.Logger;
-
-public class JoystickViewStyle {
-    private static final String TAG = JoystickViewStyle.class.getSimpleName();
-    private Logger _logger;
-
-    private int _id;
-    private String _name;
-    private int _colorMainCircle;
-    private int _colorCircleInnerOne;
-    private int _colorCircleInnerTwo;
-    private int _colorCircleInnerThree;
-    private int _colorVerticalLine;
-    private int _colorHorizontalLine;
-    private int _colorButton;
-    private boolean _resetPosition;
-
-    public JoystickViewStyle(
-            int id,
-            @NonNull String name,
-            int colorMainCircle,
-            int colorCircleInnerOne,
-            int colorCircleInnerTwo,
-            int colorCircleInnerThree,
-            int colorVerticalLine,
-            int colorHorizontalLine,
-            int colorButton,
-            boolean resetPosition) {
-        _logger = new Logger(TAG);
-        _logger.Debug("new JoystickViewStyle...");
-
-        _id = id;
-
-        _name = name;
-
-        _colorMainCircle = colorMainCircle;
-        _colorCircleInnerOne = colorCircleInnerOne;
-        _colorCircleInnerTwo = colorCircleInnerTwo;
-        _colorCircleInnerThree = colorCircleInnerThree;
-        _colorVerticalLine = colorVerticalLine;
-        _colorHorizontalLine = colorHorizontalLine;
-        _colorButton = colorButton;
-        _resetPosition = resetPosition;
-    }
-
-    public int GetId() {
-        return _id;
-    }
-
-    public String GetName() {
-        return _name;
-    }
-
-    public int GetColorMainCircle() {
-        return _colorMainCircle;
-    }
-
-    public int GetColorCircleInnerOne() {
-        return _colorCircleInnerOne;
-    }
-
-    public int GetColorCircleInnerTwo() {
-        return _colorCircleInnerTwo;
-    }
-
-    public int GetColorCircleInnerThree() {
-        return _colorCircleInnerThree;
-    }
-
-    public int GetColorVertialLine() {
-        return _colorVerticalLine;
-    }
-
-    public int GetColorHorizontalLine() {
-        return _colorHorizontalLine;
-    }
-
-    public int GetColorButton() {
-        return _colorButton;
-    }
-
-    public boolean GetResetPosition() {
-        return _resetPosition;
-    }
-}
-
-
+data class JoystickViewStyle(
+        val colorMainCircle: Int,
+        val colorCircleInner1: Int,
+        val colorCircleInner2: Int,
+        val colorCircleInner3: Int,
+        val colorLineVertical: Int,
+        val colorLineHorizontal: Int,
+        val colorButton: Int,
+        val resetPosition: Boolean)
 ```
 
 You can create a own style by creating an intance of this class, like:
 ```java
-	JoystickViewStyle MY_STYLE = new JoystickViewStyle(25, "My Style", Color.LIGHT_BLUE, Color.DARK_BLUE, Color.CYAN, Color.WHITE, Color.RED, Color.WHITE, Color.RED, false);
+	val myStyle = JoystickViewStyle(Color.LIGHT_BLUE, Color.DARK_BLUE, Color.CYAN, Color.WHITE, Color.RED, Color.WHITE, Color.RED, false);
 ```
 
-Please not that the boolean value marks a reset of the JoystickView after releasing it.
+Please note the boolean value marks a reset of the JoystickView after releasing it.
