@@ -4,7 +4,7 @@ title: Projects - JoystickView
 permalink: /projects/JoystickView
 render: dynamic
 author_profile: false
-date: 2018-08-11T00:17:00+00:00
+date: 2018-08-11T09:05:00+00:00
 ---
 
 <div style="width: 100%;text-align: center;margin:15px;text-decoration: underline;">
@@ -58,7 +58,7 @@ An example application is given in this project!
 2 - then in your activitiy:
 
 ```java
-package guepardoapps.joystickexample;
+package guepardoapps.joystickexample
 
 import android.graphics.Color
 import android.os.Bundle
@@ -67,7 +67,7 @@ import android.util.Log
 import android.widget.TextView
 import guepardoapps.library.joystickview.JoystickView
 import guepardoapps.library.joystickview.extensions.doubleFormat
-import guepardoapps.library.joystickview.styles.JoystickViewStyle
+import guepardoapps.library.joystickview.models.JoystickViewStyle
 import io.reactivex.schedulers.Schedulers
 
 class MainActivity : AppCompatActivity() {
@@ -106,10 +106,10 @@ class MainActivity : AppCompatActivity() {
 Following styles are given:
 
 ```java
-package guepardoapps.library.joystickview.enums;
+package guepardoapps.library.joystickview.constants
 
 import android.graphics.Color
-import guepardoapps.library.joystickview.styles.JoystickViewStyle
+import guepardoapps.library.joystickview.models.JoystickViewStyle
 
 class Defaults {
     companion object {
@@ -124,10 +124,10 @@ class Defaults {
 ```
 
 4 - create your own style:
-Styles are based on the class JoystickViewStyle in package guepardoapps.library.joystickview.styles;
+Styles are based on the class JoystickViewStyle in package guepardoapps.library.joystickview.models
 
 ```java
-package guepardoapps.library.joystickview.styles;
+package guepardoapps.library.joystickview.models
 
 data class JoystickViewStyle(
         val colorMainCircle: Int,
