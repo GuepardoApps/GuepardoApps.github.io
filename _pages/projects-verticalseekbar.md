@@ -4,7 +4,7 @@ title: Projects - VerticalSeekbarView
 permalink: /projects/VerticalSeekbarView
 render: dynamic
 author_profile: false
-date: 2017-09-02T12:30:00+00:00
+date: 2018-08-11T10:26:00+00:00
 ---
 
 <div style="width: 100%;text-align: center;margin:15px;text-decoration: underline;">
@@ -55,35 +55,44 @@ An example application is given in this project!
 2 - then in your activitiy:
 
 ```java
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.widget.TextView;
+package guepardoapps.verticalseekbarexample
 
-import guepardoapps.library.verticalseekbarview.VerticalSeekBarView;
-import guepardoapps.library.verticalseekbarview.enums.VerticalSeekBarStyleEnum;
-import guepardoapps.library.verticalseekbarview.interfaces.OnVerticalSeekBarMoveListener;
+import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
+import android.util.Log
+import android.widget.TextView
+import guepardoapps.library.verticalseekbarview.VerticalSeekBarView
+import guepardoapps.library.verticalseekbarview.constants.Defaults
+import guepardoapps.library.verticalseekbarview.extensions.doubleFormat
+import io.reactivex.schedulers.Schedulers
 
-public class MainActivity extends AppCompatActivity {
+class MainActivity : AppCompatActivity() {
+    private val tag: String = MainActivity::class.java.simpleName
 
-    private static final long LOOP_INTERVAL = 250;
+    private val loopInterval: Long = 250
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
 
-        final TextView valueView = (TextView) findViewById(R.id.valueView);
-        valueView.setText(String.valueOf(0));
+        val valueView = findViewById<TextView>(R.id.valueView)
+        val defaultText = "0.0"
+        valueView.text = defaultText
 
-        VerticalSeekBarView verticalSeekBarView = (VerticalSeekBarView) findViewById(R.id.valueControl);
-        verticalSeekBarView.SetStyle(VerticalSeekBarStyleEnum.VOLUME_SLIDER_BLUE);
-        verticalSeekBarView.setOnVerticalSeekBarMoveListener(new OnVerticalSeekBarMoveListener() {
-            @Override
-            public void onValueChanged(int power) {
-                // Returns a value between 0 and 100
-                valueView.setText(String.valueOf(power));
-            }
-        }, LOOP_INTERVAL);
+        val verticalSeekBarView = findViewById<VerticalSeekBarView>(R.id.valueControl)
+        verticalSeekBarView.setStyle(Defaults.styleVolumeSliderBlue)
+        verticalSeekBarView.setLoopInterval(loopInterval)
+        verticalSeekBarView.positionPublishSubject
+                .subscribeOn(Schedulers.io())
+                .subscribe(
+                        { response ->
+                            val text = response.y.doubleFormat(2)
+                            valueView.text = text
+                        },
+                        { throwable ->
+                            Log.e(tag, throwable.toString())
+                        }
+                )
     }
 }
 ```
@@ -92,117 +101,47 @@ public class MainActivity extends AppCompatActivity {
 Following styles are given:
 
 ```java
-package guepardoapps.library.verticalseekbarview.enums;
+package guepardoapps.library.verticalseekbarview.constants
 
-import android.graphics.Color;
+import android.graphics.Color
+import guepardoapps.library.verticalseekbarview.models.VerticalSeekBarStyle
 
-public enum VerticalSeekBarStyleEnum {
+class Defaults {
+    companion object {
+        ...
 
-    public static VerticalSeekBarStyle DEFAULT = new VerticalSeekBarStyle(0, "Default", Color.WHITE, Color.RED, true, 50);
-
-    public static VerticalSeekBarStyle VOLUME_SLIDER = new VerticalSeekBarStyle(1, "VolumeSlider", Color.argb(50, 50, 50, 50), Color.WHITE, false, 100);
-
-    public static VerticalSeekBarStyle VOLUME_SLIDER_RED = new VerticalSeekBarStyle(2, "VolumeSliderRed", Color.argb(255, 255, 0, 0), Color.WHITE, false, 100);
-    public static VerticalSeekBarStyle VOLUME_SLIDER_GREEN = new VerticalSeekBarStyle(3, "VolumeSliderGreen", Color.argb(255, 0, 255, 0), Color.WHITE, false, 100);
-    public static VerticalSeekBarStyle VOLUME_SLIDER_BLUE = new VerticalSeekBarStyle(4, "VolumeSliderBlue", Color.argb(255, 0, 0, 255), Color.WHITE, false, 100);
-
-    public static VerticalSeekBarStyle VOLUME_SLIDER_YELLOW = new VerticalSeekBarStyle(5, "VolumeSliderYellow", Color.argb(255, 255, 255, 0), Color.WHITE, false, 100);
-    public static VerticalSeekBarStyle VOLUME_SLIDER_PURPLE = new VerticalSeekBarStyle(6, "VolumeSliderPurple", Color.argb(255, 255, 0, 255), Color.WHITE, false, 100);
-    public static VerticalSeekBarStyle VOLUME_SLIDER_CYAN = new VerticalSeekBarStyle(7, "VolumeSliderCyan", Color.argb(255, 255, 0, 255), Color.WHITE, false, 100);
+        /*
+         * predefined styles
+         */
+        val styleDefault: VerticalSeekBarStyle = VerticalSeekBarStyle(Color.WHITE, Color.RED, true, 50.0)
+        val styleVolumeSlider: VerticalSeekBarStyle = VerticalSeekBarStyle(Color.argb(50, 50, 50, 50), Color.WHITE, false, 100.0)
+        val styleVolumeSliderRed: VerticalSeekBarStyle = VerticalSeekBarStyle(Color.argb(255, 255, 0, 0), Color.WHITE, false, 100.0)
+        val styleVolumeSliderGreen: VerticalSeekBarStyle = VerticalSeekBarStyle(Color.argb(255, 0, 255, 0), Color.WHITE, false, 100.0)
+        val styleVolumeSliderBlue: VerticalSeekBarStyle = VerticalSeekBarStyle(Color.argb(255, 0, 0, 255), Color.WHITE, false, 100.0)
+        val styleVolumeSliderYellow: VerticalSeekBarStyle = VerticalSeekBarStyle(Color.argb(255, 255, 255, 0), Color.WHITE, false, 100.0)
+        val styleVolumeSliderPurple: VerticalSeekBarStyle = VerticalSeekBarStyle(Color.argb(255, 255, 0, 255), Color.WHITE, false, 100.0)
+        val styleVolumeSliderCyan: VerticalSeekBarStyle = VerticalSeekBarStyle(Color.argb(255, 0, 255, 255), Color.WHITE, false, 100.0)
+    }
 }
 ```
 
 4 - create your own style:
-Styles are based on the class VerticalSeekBarStyle in package guepardoapps.library.verticalseekbarview.styles;
+Styles are based on the class VerticalSeekBarStyle in package guepardoapps.library.verticalseekbarview.models;
 
 ```java
-package guepardoapps.library.verticalseekbarview.styles;
+package guepardoapps.library.verticalseekbarview.models
 
-import android.support.annotation.NonNull;
-
-import guepardoapps.library.verticalseekbarview.tools.Logger;
-
-public class VerticalSeekBarStyle {
-
-    private static final String TAG = VerticalSeekBarStyle.class.getSimpleName();
-    private Logger _logger;
-
-    private int _id;
-    private String _name;
-    private int _seekBarColor;
-    private int _buttonColor;
-    private boolean _resetPosition;
-    private int _startPercentageY;
-
-    public VerticalSeekBarStyle(
-            int id,
-            @NonNull String name,
-            int seekBarColor,
-            int buttonColor,
-            boolean resetPosition,
-            int startPercentageY) {
-        _logger = new Logger(TAG);
-        _logger.Debug("new VerticalSeekBarStyle...");
-
-        _id = id;
-        _name = name;
-        _seekBarColor = seekBarColor;
-        _buttonColor = buttonColor;
-        _resetPosition = resetPosition;
-
-        if (startPercentageY < 0) {
-            _logger.Warn("Value of startPercentage is lower then 0! This is not allowed! Setting to 0!");
-            startPercentageY = 0;
-        } else if (startPercentageY > 100) {
-            _logger.Warn("Value of startPercentage is higher then 100! This is not allowed! Setting to 100!");
-            startPercentageY = 100;
-        }
-
-        _startPercentageY = startPercentageY;
-    }
-
-    public int GetId() {
-        return _id;
-    }
-
-    public String GetName() {
-        return _name;
-    }
-
-    public int GetSeekBarColor() {
-        return _seekBarColor;
-    }
-
-    public int GetButtonColor() {
-        return _buttonColor;
-    }
-
-    public boolean GetResetPosition() {
-        return _resetPosition;
-    }
-
-    public int GetStartPercentageY() {
-        return _startPercentageY;
-    }
-
-    @Override
-    public String toString() {
-        return "{" + TAG
-                + ":{_id:" + String.valueOf(_id)
-                + "};{_name:" + _name
-                + "};{_seekBarColor:" + String.valueOf(_seekBarColor)
-                + "};{_buttonColor:" + String.valueOf(_buttonColor)
-                + "};{_resetPosition:" + String.valueOf(_resetPosition)
-                + "};{_startPercentageY:" + String.valueOf(_startPercentageY) + "};}";
-    }
-}
-
+data class VerticalSeekBarStyle(
+        val colorSeekBar: Int,
+        val colorButton: Int,
+        val resetPosition: Boolean,
+        val startPercentageY: Double = 0.0)
 ```
 
 You can create a own style by creating an intance of this class, like:
 ```java
-	VerticalSeekBarStyle MY_STYLE = new VerticalSeekBarStyle(25, "MyStyle", Color.BLUE, Color.GREEN, true, 25);
+	val myStyle = VerticalSeekBarStyle(Color.BLUE, Color.GREEN, true, 25.0);
 ```
 
-Please not that the boolean value marks a reset of the SeekBar after releasing it.
+Please note that the boolean value marks a reset of the SeekBar after releasing it.
 The last parameter is an integer. It marks the startPosition of the dragger and needs to be between 0 and 100!
