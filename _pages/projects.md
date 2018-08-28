@@ -324,20 +324,20 @@ date: 2017-08-24T22:38:00+00:00
   				</a>
         </div>
         <div class="card-content white-text">
-          <p>Android application for tracking time. Example of a floating window and button to track time.</p>
+          <p>Android application for tracking time. Example application to track time and create a floating stopwatch.</p>
         </div>
         <div class="card-action">
   				<a target="_blank" href="https://www.android.com" title="Platform">
   					<img src="https://img.shields.io/badge/platform-Android-blue.svg" />
   				</a>
-  				<a target="_blank" href="https://android-arsenal.com/api?level=21" title="API21+">
-  					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
+  				<a target="_blank" href="https://android-arsenal.com/api?level=23" title="API23+">
+  					<img src="https://img.shields.io/badge/API-23+-blue.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/StopMe" title="Build">
+  				<a target="_blank" href="https://github.com/GuepardoApps/StopMe/tree/master/releases/1-2-0-180828.apk" title="Build">
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/StopMe" title="Version">
-  					<img src="https://img.shields.io/badge/version-v1.1.0.170823-blue.svg" />
+  				<a target="_blank" href="https://github.com/GuepardoApps/StopMe/master/" title="Version">
+  					<img src="https://img.shields.io/badge/version-v1.2.0.180828-blue.svg" />
   				</a>
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
