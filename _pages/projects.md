@@ -333,11 +333,11 @@ date: 2017-08-24T22:38:00+00:00
   				<a target="_blank" href="https://android-arsenal.com/api?level=23" title="API23+">
   					<img src="https://img.shields.io/badge/API-23+-blue.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/StopMe/tree/master/releases/1-2-1-180828.apk" title="Build">
+  				<a target="_blank" href="https://github.com/GuepardoApps/StopMe/tree/master/releases/1-2-2-180829.apk" title="Build">
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/GuepardoApps/StopMe/master/" title="Version">
-  					<img src="https://img.shields.io/badge/version-v1.2.1.180828-blue.svg" />
+  					<img src="https://img.shields.io/badge/version-v1.2.2.180829-blue.svg" />
   				</a>
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
