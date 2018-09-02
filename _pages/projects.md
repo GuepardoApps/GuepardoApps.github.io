@@ -169,14 +169,14 @@ date: 2017-08-24T22:38:00+00:00
   				<a target="_blank" href="https://www.android.com" title="Platform">
   					<img src="https://img.shields.io/badge/platform-Android-blue.svg" />
   				</a>
-  				<a target="_blank" href="https://android-arsenal.com/api?level=21" title="API21+">
-  					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
+  				<a target="_blank" href="https://android-arsenal.com/api?level=23" title="API23+">
+  					<img src="https://img.shields.io/badge/API-23+-blue.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/GuepardoApps/MyCoins/tree/master/releases" title="Build">
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/MyCoins/tree/master/releases/v0.1.0.171015.apk" title="Version">
-  					<img src="https://img.shields.io/badge/version-v0.1.0.171015-blue.svg" />
+  				<a target="_blank" href="https://github.com/GuepardoApps/MyCoins/tree/master/releases/v1.1.0.180902.apk" title="Version">
+  					<img src="https://img.shields.io/badge/version-v1.2.0.180902-blue.svg" />
   				</a>
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
