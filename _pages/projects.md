@@ -76,11 +76,11 @@ date: 2017-08-24T22:38:00+00:00
       <div class="card grey darken-1">
         <div class="card-image">
           <img src="/assets/images/projects/open_weather_001.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
-          <span class="card-title" style="position: absolute; right: 0; text-align:right;">Open Weather - library</span>
-          <a target="_blank" href="https://github.com/GuepardoApps/library_OpenWeather/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+          <span class="card-title" style="position: absolute; right: 0; text-align:right;">OpenWeather-Android - library</span>
+          <a target="_blank" href="https://github.com/OpenWeatherLib/OpenWeather-Android/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
             <i class="material-icons">save</i>
           </a>
-          <a target="_blank" href="https://github.com/GuepardoApps/library_OpenWeather" class="btn-floating halfway-fab waves-effect waves-light blue">
+          <a target="_blank" href="https://github.com/OpenWeatherLib/OpenWeather-Android" class="btn-floating halfway-fab waves-effect waves-light blue">
   					<i class="material-icons">open_in_new</i>
   				</a>
         </div>
@@ -94,11 +94,11 @@ date: 2017-08-24T22:38:00+00:00
   				<a target="_blank" href="https://android-arsenal.com/api?level=21" title="API21+">
   					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/library_OpenWeather" title="Build">
+  				<a target="_blank" href="https://github.com/OpenWeatherLib/OpenWeather-Android/tree/master/releases" title="Build">
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/library_OpenWeather" title="Version">
-  					<img src="https://img.shields.io/badge/version-v1.2.1.180809-blue.svg" />
+  				<a target="_blank" href="https://github.com/OpenWeatherLib/OpenWeather-Android/tree/master/releases/openweather-android-2018-09-13.aar" title="Version">
+  					<img src="https://img.shields.io/badge/version-v1.3.0.180913-blue.svg" />
   				</a>
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />

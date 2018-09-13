@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects - OpenWeather
+title: Projects - OpenWeather - Android
 permalink: /projects/OpenWeather
 render: dynamic
 author_profile: false
@@ -8,7 +8,7 @@ date: 2018-06-05T21:42:00+00:00
 ---
 
 <div style="width: 100%;text-align: center;margin:15px;text-decoration: underline;">
-	<h1>OpenWeather</h1>
+	<h1>OpenWeather - Android</h1>
 	<img src="/assets/images/projects/open_weather_001.png" alt="OpenWeather" style="width:150px;height:150px;margin:10px;border-radius:5px;">
 </div>
 
@@ -27,9 +27,20 @@ class MainActivity : AppCompatActivity() {
         ...
 
         OpenWeatherService.instance.initialize(this)
+
+        val geoLocation = GeoLocation()
+        geoLocation.latitude = 49.4539
+        geoLocation.longitude = 11.0773
+
+        val city = City()
+        city.id = 2861650
+        city.name = getString(R.string.openweather_city)
+        city.country = "DE"
+        city.population = 499237
+        city.geoLocation = geoLocation
 		
         OpenWeatherService.instance.apiKey = getString(R.string.openweather_api_key)    // Set ApiKey => Will be read from xml file
-        OpenWeatherService.instance.city = getString(R.string.openweather_city)         // Set your preferred city
+        OpenWeatherService.instance.city = city                                         // Set your preferred city
         OpenWeatherService.instance.notificationEnabled = true                          // Enable/Disable notifications
         OpenWeatherService.instance.wallpaperEnabled = true                             // Enable/Disable set of wallpaper
         OpenWeatherService.instance.receiverActivity = MainActivity::class.java         // Set receiver for notifications
@@ -59,17 +70,18 @@ class MainActivity : AppCompatActivity() {
                     responseError -> TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
                 }
             )
-		
-        // Set onWeatherServiceListener (DEPRECATED)
-        OpenWeatherService.instance.onWeatherServiceListener = (object : OnWeatherServiceListener {
-            override fun onCurrentWeather(currentWeather: WeatherCurrent?, success: Boolean) {
-                TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-            }
 
-            override fun onForecastWeather(forecastWeather: WeatherForecast?, success: Boolean) {
-                TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-            }
-        })
+        // Subscribe on uvIndexPublishSubject (Using ReactiveX2)
+        OpenWeatherService.instance.uvIndexPublishSubject
+            .subscribeOn(Schedulers.io())
+            .subscribe(
+                {
+                    response -> TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+                },
+                {
+                    responseError -> TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+                }
+            )
 
         // Finally start everything (IMPORTANT)
         OpenWeatherService.instance.start()
@@ -85,7 +97,7 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
-To display received data use the customadapter in the library
+To display received data use the custom adapter in the library
 
 ```java
 class MainActivity : AppCompatActivity() {
@@ -127,11 +139,12 @@ class MainActivity : AppCompatActivity() {
 - com.github.GrenderG:Toasty:1.2.5
 - com.github.matecode:Snacky:1.0.2
 - com.github.rey5137:material:1.2.4
+- com.google.code.gson:gson:2.8.5
 - com.squareup.okhttp3:okhttp:3.9.1
 
 - io.reactivex.rxjava2:rxkotlin:2.2.0
 
-- com.android.support.constraint:constraint-layout:1.1.2
+- com.android.support.constraint:constraint-layout:1.1.3
 - using also latest API28 libs
 
 - tests based on mockito and spek
