@@ -26,21 +26,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState);
         ...
 
-        OpenWeatherService.instance.initialize(this)
+        OpenWeatherService.instance.initialize(this, "Nuremberg")                       // Initialize Service already with your preferred city
 
-        val geoLocation = GeoLocation()
-        geoLocation.latitude = 49.4539
-        geoLocation.longitude = 11.0773
-
-        val city = City()
-        city.id = 2861650
-        city.name = getString(R.string.openweather_city)
-        city.country = "DE"
-        city.population = 499237
-        city.geoLocation = geoLocation
-		
         OpenWeatherService.instance.apiKey = getString(R.string.openweather_api_key)    // Set ApiKey => Will be read from xml file
-        OpenWeatherService.instance.city = city                                         // Set your preferred city
         OpenWeatherService.instance.notificationEnabled = true                          // Enable/Disable notifications
         OpenWeatherService.instance.wallpaperEnabled = true                             // Enable/Disable set of wallpaper
         OpenWeatherService.instance.receiverActivity = MainActivity::class.java         // Set receiver for notifications
