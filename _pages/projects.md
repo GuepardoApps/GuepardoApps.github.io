@@ -97,8 +97,8 @@ date: 2017-08-24T22:38:00+00:00
   				<a target="_blank" href="https://github.com/OpenWeatherLib/OpenWeather-Android/tree/master/releases" title="Build">
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/OpenWeatherLib/OpenWeather-Android/tree/master/releases/openweather-android-2018-09-19.aar" title="Version">
-  					<img src="https://img.shields.io/badge/version-v1.4.0.180919-blue.svg" />
+  				<a target="_blank" href="https://github.com/OpenWeatherLib/OpenWeather-Android/tree/master/releases/openweather-android-2018-09-23.aar" title="Version">
+  					<img src="https://img.shields.io/badge/version-v1.5.0.180923-blue.svg" />
   				</a>
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
