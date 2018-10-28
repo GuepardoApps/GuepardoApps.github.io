@@ -15,9 +15,10 @@ date: 2018-06-05T21:42:00+00:00
 # Integration
 
 First you have to register an account at [OpenWeatherMap.org](http://www.openweathermap.org/) and receive an API key.
-This key is an important parameter of the OpenWeatherService!
+This key is an important parameter of the OpenWeatherService and needs to be set in the settings.xml along with the key for unsplash api (new, not needed but fancy for city image)!
 
-The easiest way to integrate the library is to use the OpenWeatherService and to subscribe on weatherCurrentPublishSubject and weatherForecastPublishSubject using ReactiveX2
+The easiest way to integrate the library is to use the OpenWeatherService and to subscribe on weatherCurrentPublishSubject and weatherForecastPublishSubject using ReactiveX2.
+You can also use the build in views for the city, current and forecast weather and  the uv index.
 
 ```java
 class MainActivity : AppCompatActivity() {
@@ -131,22 +132,28 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
-# Libraries
+## Requirements
 
-- com.baoyz.pullrefreshlayout:library:1.2.0
-- com.flaviofaria:kenburnsview:1.0.7
-- com.github.florent37:expansionpanel:1.1.1
-- com.github.GrenderG:Toasty:1.2.5
-- com.github.matecode:Snacky:1.0.2
-- com.github.rey5137:material:1.2.4
-- com.google.code.gson:gson:2.8.5
-- com.squareup.okhttp3:okhttp:3.9.1
+- Use at least JVM 1.8
+
+## Libraries
+
+Used Libraries are
+
+- com.flaviofaria:kenburnsview
+- com.github.AndreaCioccarelli:CryptoPrefs
+- com.github.florent37:expansionpanel
+- com.google.code.gson:gson
+- com.baoyz.pullrefreshlayout:library
+- com.squareup.okhttp3:okhttp
+- com.squareup.picasso:picasso
 - it.sephiroth.android.library.bottomnavigation:bottom-navigation:2.0.1-rc1
 
-- io.reactivex.rxjava2:rxkotlin:2.2.0
+- io.reactivex.rxjava2:rxkotlin
+- org.jetbrains.kotlin:kotlin-reflect
+- org.jetbrains.kotlin:kotlin-stdlib-jdk8
 
-- com.android.support.constraint:constraint-layout:1.1.3
-- using also latest API28 libs
+- and the new androidx-libraries
 
 - tests based on mockito and spek
 

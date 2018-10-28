@@ -50,7 +50,7 @@ date: 2017-08-31T18:43:00+00:00
 					</p>
 
 					<p>
-					Soon I got more and more excited about android and also about raspberry pi. So as a lazy student I thought about more automation for my flat and this is where <a target="_blank" href="https://github.com/GuepardoApps/LucaHome">LucaHome</a> started.
+					Soon I got more and more excited about android and also about raspberry pi. So as a lazy student I thought about more automation for my flat and this is where <a target="_blank" href="https://github.com/LucaHome/">LucaHome</a> started.
 					</p>
 
 					<p>
@@ -58,7 +58,7 @@ date: 2017-08-31T18:43:00+00:00
 					</p>
 
 					<p>
-					Currently I am working for a software company in Nuremberg as a junior software developer. I work in a project where we use Angular and .Net Core.
+					Currently I am working for a software company in Nuremberg as a software developer. We are using Angular7 and .Net Core.
 					</p>
 				</div>
 
@@ -87,10 +87,10 @@ date: 2017-08-31T18:43:00+00:00
 					  <div class="row-ceevee" style="margin-top: 55px;">
 			        <div class="twelve columns main-col">
 								<div class="bars">
-									<li><span class="bar-expand eighty-percent">80%</span><em>C#, .Net and WPF</em></li>
-									<li><span class="bar-expand ninety-percent">90%</span><em>Android (Java & Kotlin)</em></li>
-									<li><span class="bar-expand ninety-percent">90%</span><em>Angular and TypeScript</em></li>
-									<li><span class="bar-expand eighty-percent">80%</span><em>HTML, CSS and JavaScript</em></li>
+									<li><span class="bar-expand seventy-percent">70%</span><em>C#, .Net, EF and WPF</em></li>
+									<li><span class="bar-expand eighty-percent">80%</span><em>Android (Java & Kotlin)</em></li>
+									<li><span class="bar-expand eighty-percent">80%</span><em>Angular and TypeScript</em></li>
+									<li><span class="bar-expand ninety-percent">90%</span><em>HTML, CSS and JavaScript</em></li>
 								</div>
 							</div>
 						</div>
@@ -105,10 +105,10 @@ date: 2017-08-31T18:43:00+00:00
 					  <div class="row-ceevee" style="margin-top: 55px;">
 			        <div class="twelve columns main-col">
 								<div class="bars">
-									<li><span class="bar-expand ninety-percent">90%</span><em>Visual Studio 2017</em></li>
-									<li><span class="bar-expand seventy-percent">70%</span><em>Android Studio 3</em></li>
-									<li><span class="bar-expand thirty-percent">30%</span><em>Atom</em></li>
-									<li><span class="bar-expand eighty-percent">80%</span><em>GitHub and TFS</em></li>
+									<li><span class="bar-expand eighty-percent">80%</span><em>Visual Studio 2017</em></li>
+									<li><span class="bar-expand thirty-percent">30%</span><em>Visual Studio Code</em></li>
+									<li><span class="bar-expand eighty-percent">80%</span><em>Android Studio 3</em></li>
+									<li><span class="bar-expand ninety-percent">90%</span><em>GitHub and TFS</em></li>
 								</div>
 							</div>
 						</div>
@@ -127,9 +127,9 @@ date: 2017-08-31T18:43:00+00:00
 						<div class="row-ceevee" style="margin-top: 55px;">
 							<div class="twelve columns main-col">
 								<div class="bars">
-									<li><span class="bar-expand eighty-percent">80%</span><em>MS Word</em></li>
-									<li><span class="bar-expand eighty-percent">80%</span><em>MS Excel</em></li>
-									<li><span class="bar-expand eighty-percent">80%</span><em>MS PowerPoint</em></li>
+									<li><span class="bar-expand seventy-percent">70%</span><em>MS Word</em></li>
+									<li><span class="bar-expand seventy-percent">70%</span><em>MS Excel</em></li>
+									<li><span class="bar-expand seventy-percent">70%</span><em>MS PowerPoint</em></li>
 									<li><span class="bar-expand ten-percent">10%</span><em>MS Visio</em></li>
 								</div>
 							</div>
@@ -147,7 +147,7 @@ date: 2017-08-31T18:43:00+00:00
 								<div class="bars">
 									<li><span class="bar-expand one-hundred-percent">100%</span><em>German</em></li>
 									<li><span class="bar-expand ninety-percent">90%</span><em>English</em></li>
-									<li><span class="bar-expand thirty-percent">30%</span><em>Spanish</em></li>
+									<li><span class="bar-expand twenty-percent">20%</span><em>Spanish</em></li>
 								</div>
 							</div>
 						</div>

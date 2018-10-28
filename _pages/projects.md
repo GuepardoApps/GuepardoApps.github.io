@@ -16,7 +16,7 @@ date: 2017-08-24T22:38:00+00:00
         <div class="card-image">
           <img src="/assets/images/projects/lucahome_001.png" style="width: 100px; height: 100px; padding:10px;">
           <span class="card-title" style="position: absolute; right: 0; text-align:right;">LucaHome</span>
-          <a target="_blank" href="https://github.com/GuepardoApps/LucaHome" class="btn-floating halfway-fab waves-effect waves-light blue">
+          <a target="_blank" href="https://github.com/LucaHome" class="btn-floating halfway-fab waves-effect waves-light blue">
   					<i class="material-icons">open_in_new</i>
   				</a>
         </div>
@@ -48,7 +48,7 @@ date: 2017-08-24T22:38:00+00:00
         <div class="card-image">
           <img src="/assets/images/projects/passwordsafe_001.png" style="width: 100px; height: 100px; padding:10px;">
           <span class="card-title" style="position: absolute; right: 0; text-align:right;">PasswordSafe</span>
-          <a target="_blank" href="https://github.com/GuepardoApps/PasswordSafe" class="btn-floating halfway-fab waves-effect waves-light blue">
+          <a target="_blank" href="https://github.com/PasswordSafe" class="btn-floating halfway-fab waves-effect waves-light blue">
   					<i class="material-icons">open_in_new</i>
   				</a>
         </div>
@@ -91,14 +91,14 @@ date: 2017-08-24T22:38:00+00:00
   				<a target="_blank" href="https://www.android.com" title="Platform">
   					<img src="https://img.shields.io/badge/platform-Android-blue.svg" />
   				</a>
-  				<a target="_blank" href="https://android-arsenal.com/api?level=21" title="API21+">
-  					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
+  				<a target="_blank" href="https://android-arsenal.com/api?level=24" title="API24+">
+  					<img src="https://img.shields.io/badge/API-24+-blue.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/OpenWeatherLib/OpenWeather-Android/tree/master/releases" title="Build">
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/OpenWeatherLib/OpenWeather-Android/tree/master/releases/openweather-android-2018-09-23.aar" title="Version">
-  					<img src="https://img.shields.io/badge/version-v1.5.0.180923-blue.svg" />
+  				<a target="_blank" href="https://github.com/OpenWeatherLib/OpenWeather-Android/tree/master/releases/openweather-android-2018-09-25.aar" title="Version">
+  					<img src="https://img.shields.io/badge/version-v1.5.0.180925-blue.svg" />
   				</a>
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
@@ -356,10 +356,10 @@ date: 2017-08-24T22:38:00+00:00
         <div class="card-image">
           <img src="/assets/images/projects/project_dummy.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
           <span class="card-title" style="position: absolute; right: 0; text-align:right;">JoystickView - library</span>
-          <a target="_blank" href="https://github.com/GuepardoApps/library_JoystickView/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+          <a target="_blank" href="https://github.com/GuepardoApps/JoystickView/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
             <i class="material-icons">save</i>
           </a>
-          <a target="_blank" href="https://github.com/GuepardoApps/library_JoystickView" class="btn-floating halfway-fab waves-effect waves-light blue">
+          <a target="_blank" href="https://github.com/GuepardoApps/JoystickView" class="btn-floating halfway-fab waves-effect waves-light blue">
   					<i class="material-icons">open_in_new</i>
   				</a>
         </div>
@@ -373,11 +373,14 @@ date: 2017-08-24T22:38:00+00:00
   				<a target="_blank" href="https://android-arsenal.com/api?level=21" title="API21+">
   					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/library_JoystickView" title="Build">
+  				<a target="_blank" href="https://github.com/GuepardoApps/JoystickView" title="Build">
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/library_JoystickView" title="Version">
-  					<img src="https://img.shields.io/badge/version-v1.1.2.180811-blue.svg" />
+  				<a target="_blank" href="https://github.com/GuepardoApps/JoystickView" title="Version">
+  					<img src="https://img.shields.io/badge/version-v1.4.0.181028-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://jitpack.io/#GuepardoApps/JoystickView" title="JitPack">
+  					<img src="https://jitpack.io/v/GuepardoApps/JoystickView.svg" />
   				</a>
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
@@ -394,10 +397,10 @@ date: 2017-08-24T22:38:00+00:00
         <div class="card-image">
           <img src="/assets/images/projects/project_dummy.png"  style="width: 100px; height: 100px; padding:10px; border-radius:96px;">
           <span class="card-title" style="position: absolute; right: 0; text-align:right;">VerticalSeekbarView - library</span>
-          <a target="_blank" href="https://github.com/GuepardoApps/library_VerticalSeekbarView/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+          <a target="_blank" href="https://github.com/GuepardoApps/VerticalSeekbarView/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
             <i class="material-icons">save</i>
           </a>
-          <a target="_blank" href="https://github.com/GuepardoApps/library_VerticalSeekbarView" class="btn-floating halfway-fab waves-effect waves-light blue">
+          <a target="_blank" href="https://github.com/GuepardoApps/VerticalSeekbarView" class="btn-floating halfway-fab waves-effect waves-light blue">
   					<i class="material-icons">open_in_new</i>
   				</a>
         </div>
@@ -411,11 +414,14 @@ date: 2017-08-24T22:38:00+00:00
   				<a target="_blank" href="https://android-arsenal.com/api?level=21" title="API21+">
   					<img src="https://img.shields.io/badge/API-21+-blue.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/library_VerticalSeekbarView" title="Build">
+  				<a target="_blank" href="https://github.com/GuepardoApps/VerticalSeekbarView" title="Build">
   					<img src="https://img.shields.io/badge/build-passing-green.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/library_VerticalSeekbarView" title="Version">
-  					<img src="https://img.shields.io/badge/version-v1.1.0.1780811-blue.svg" />
+  				<a target="_blank" href="https://github.com/GuepardoApps/VerticalSeekbarView" title="Version">
+  					<img src="https://img.shields.io/badge/version-v1.2.0.181028-blue.svg" />
+  				</a>
+  				<a target="_blank" href="https://jitpack.io/#GuepardoApps/VerticalSeekbarView" title="JitPack">
+  					<img src="https://jitpack.io/v/GuepardoApps/VerticalSeekbarView.svg" />
   				</a>
   				<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
   					<img src="https://img.shields.io/badge/License-MIT-blue.svg" />

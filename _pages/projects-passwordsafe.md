@@ -21,10 +21,10 @@ date: 2017-08-23T19:44:00+00:00
   			<div class="card-image">
   				<img src="/assets/images/projects/passwordsafe_server_001.png">
   				<span class="card-title" style="color: #000000; position: absolute; right: 0; text-align:right;">Windows Server</span>
-          <a target="_blank" href="https://github.com/GuepardoApps/PasswordSafe-WindowsServer/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+          <a target="_blank" href="https://github.com/PasswordSafe/PasswordSafe-WindowsServer/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
             <i class="material-icons">save</i>
           </a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/PasswordSafe-WindowsServer" class="btn-floating halfway-fab waves-effect waves-light blue">
+  				<a target="_blank" href="https://github.com/PasswordSafe/PasswordSafe-WindowsServer" class="btn-floating halfway-fab waves-effect waves-light blue">
   					<i class="material-icons">open_in_new</i>
   				</a>
   			</div>
@@ -35,14 +35,14 @@ date: 2017-08-23T19:44:00+00:00
   				<a target="_blank" href="https://de.wikipedia.org/wiki/Microsoft_Windows_10" title="Platform">
   					<img src="https://img.shields.io/badge/platform-Windows10-blue.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/PasswordSafe-WindowsServer/tree/master/PasswordSafeServer/publish" title="Build">
-  					<img src="https://img.shields.io/badge/build-passing-green.svg" />
+  				<a target="_blank" href="https://github.com/PasswordSafe/PasswordSafe-WindowsServer/tree/master/PasswordSafeServer/publish" title="Build">
+  					<img src="https://img.shields.io/badge/build-notStarting-orange.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/PasswordSafe-WindowsServer/tree/master/PasswordSafeServer/publish" title="Version">
-  					<img src="https://img.shields.io/badge/version-v0.17.0.17235-green.svg" />
+  				<a target="_blank" href="https://github.com/PasswordSafe/PasswordSafe-WindowsServer/tree/master/PasswordSafeServer/publish" title="Version">
+  					<img src="https://img.shields.io/badge/version-v0.18.0.18279-orange.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/PasswordSafe-WindowsServer" title="TestCoverage">
-  					<img src="https://img.shields.io/badge/testcoverage-less5percent-red.svg" />
+  				<a target="_blank" href="https://github.com/PasswordSafe/PasswordSafe-WindowsServer" title="TestCoverage">
+  					<img src="https://img.shields.io/badge/testcoverage-0percent-red.svg" />
   				</a>
   			</div>
   		</div>
@@ -53,10 +53,10 @@ date: 2017-08-23T19:44:00+00:00
   			<div class="card-image">
   				<img src="/assets/images/projects/passwordsafe_client_001.png">
   				<span class="card-title" style="position: absolute; right: 0; text-align:right;">Android Client</span>
-          <a target="_blank" href="https://github.com/GuepardoApps/PasswordSafe-AndroidClient/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
+          <a target="_blank" href="https://github.com/PasswordSafe/PasswordSafe-AndroidClient/archive/master.zip" class="btn-floating halfway-fab left waves-effect waves-light blue">
             <i class="material-icons">save</i>
           </a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/PasswordSafe-AndroidClient" class="btn-floating halfway-fab waves-effect waves-light blue">
+  				<a target="_blank" href="https://github.com/PasswordSafe/PasswordSafe-AndroidClient" class="btn-floating halfway-fab waves-effect waves-light blue">
   					<i class="material-icons">open_in_new</i>
   				</a>
   			</div>
@@ -70,7 +70,7 @@ date: 2017-08-23T19:44:00+00:00
   				<a target="_blank" href="https://android-arsenal.com/api?level=23" title="API23+">
   					<img src="https://img.shields.io/badge/API-23+-blue.svg" />
   				</a>
-  				<a target="_blank" href="https://github.com/GuepardoApps/PasswordSafe-AndroidClient/tree/master/publish" title="Build">
+  				<a target="_blank" href="https://github.com/PasswordSafe/PasswordSafe-AndroidClient/tree/master/publish" title="Build">
   					<img src="https://img.shields.io/badge/build-success-green.svg" />
   				</a>
   				<a target="_blank" href="https://github.com/GuepardoApps/PasswordSafe-AndroidClient" title="Version">

@@ -4,7 +4,7 @@ title: Projects - JoystickView
 permalink: /projects/JoystickView
 render: dynamic
 author_profile: false
-date: 2018-08-11T09:05:00+00:00
+date: 2018-10-28T20:57:00+00:00
 ---
 
 <div style="width: 100%;text-align: center;margin:15px;text-decoration: underline;">
@@ -38,7 +38,7 @@ An example application is given in this project!
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.032" />
 
-    <guepardoapps.library.joystickview.JoystickView
+    <com.github.guepardoapps.joystickview.JoystickView
         android:id="@+id/valueControl"
         android:layout_width="341dp"
         android:layout_height="355dp"
@@ -57,23 +57,26 @@ An example application is given in this project!
 
 2 - then in your activitiy:
 
-```java
+```kotlin
 package guepardoapps.joystickexample
+
 
 import android.graphics.Color
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.widget.TextView
-import guepardoapps.library.joystickview.JoystickView
-import guepardoapps.library.joystickview.extensions.doubleFormat
-import guepardoapps.library.joystickview.models.JoystickViewStyle
+import com.github.guepardoapps.joystickview.JoystickView
+import com.github.guepardoapps.joystickview.models.JoystickViewStyle
+import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
 
 class MainActivity : AppCompatActivity() {
     private val tag: String = MainActivity::class.java.simpleName
 
     private val loopInterval: Long = 250
+
+    private var subscriptions: Array<Disposable> = arrayOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -83,20 +86,28 @@ class MainActivity : AppCompatActivity() {
         val defaultText = "0.0 and 0.0"
         valueView.text = defaultText
 
+        val joystickViewStyle = JoystickViewStyle(Color.LTGRAY, Color.BLACK, Color.BLACK, Color.BLACK, Color.BLACK, Color.BLACK, Color.RED, true)
+
         val joyStickView = findViewById<JoystickView>(R.id.valueControl)
-        joyStickView.setStyle(JoystickViewStyle(Color.LTGRAY, Color.BLACK, Color.BLACK, Color.BLACK, Color.BLACK, Color.BLACK, Color.RED, true))
+        joyStickView.setStyle(joystickViewStyle)
         joyStickView.setLoopInterval(loopInterval)
-        joyStickView.positionPublishSubject
+        subscriptions = subscriptions.plus(joyStickView.positionPublishSubject
                 .subscribeOn(Schedulers.io())
                 .subscribe(
                         { response ->
-                            val text = "${response.x.doubleFormat(2)} and ${response.y.doubleFormat(2)}"
+                            val text = String.format("%.2f and %.2f", response.x, response.y)
                             valueView.text = text
                         },
                         { throwable ->
                             Log.e(tag, throwable.toString())
                         }
-                )
+                ))
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        subscriptions.forEach { x -> x.dispose() }
+        subscriptions = arrayOf()
     }
 }
 
@@ -105,15 +116,15 @@ class MainActivity : AppCompatActivity() {
 3 - change your style:
 Following styles are given:
 
-```java
-package guepardoapps.library.joystickview.constants
+```kotlin
+package com.github.guepardoapps.joystickview.constants
 
 import android.graphics.Color
 import guepardoapps.library.joystickview.models.JoystickViewStyle
 
 class Defaults {
     companion object {
-        ...
+        // ...
 
         /*
          * default style
@@ -124,10 +135,10 @@ class Defaults {
 ```
 
 4 - create your own style:
-Styles are based on the class JoystickViewStyle in package guepardoapps.library.joystickview.models
+Styles are based on the class JoystickViewStyle in package guepardoapps.library.joystickview.models;
 
-```java
-package guepardoapps.library.joystickview.models
+```kotlin
+package com.github.guepardoapps.joystickview.models
 
 data class JoystickViewStyle(
         val colorMainCircle: Int,
@@ -140,9 +151,9 @@ data class JoystickViewStyle(
         val resetPosition: Boolean)
 ```
 
-You can create a own style by creating an intance of this class, like:
-```java
-	val myStyle = JoystickViewStyle(Color.LIGHT_BLUE, Color.DARK_BLUE, Color.CYAN, Color.WHITE, Color.RED, Color.WHITE, Color.RED, false);
+You can create a own style by creating an instance of this class, like:
+```kotlin
+	val myStyle = JoystickViewStyle(Color.LIGHT_BLUE, Color.DARK_BLUE, Color.CYAN, Color.WHITE, Color.RED, Color.WHITE, Color.RED, false)
 ```
 
 Please note the boolean value marks a reset of the JoystickView after releasing it.

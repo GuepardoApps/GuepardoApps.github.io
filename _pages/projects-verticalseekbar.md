@@ -4,7 +4,7 @@ title: Projects - VerticalSeekbarView
 permalink: /projects/VerticalSeekbarView
 render: dynamic
 author_profile: false
-date: 2018-08-11T10:26:00+00:00
+date: 2018-10-28T20:57:00+00:00
 ---
 
 <div style="width: 100%;text-align: center;margin:15px;text-decoration: underline;">
@@ -37,7 +37,7 @@ An example application is given in this project!
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <guepardoapps.library.verticalseekbarview.VerticalSeekBarView
+    <com.github.guepardoapps.verticalseekbarview.VerticalSeekBarView
         android:id="@+id/valueControl"
         android:layout_width="25dp"
         android:layout_height="fill_parent"
@@ -54,22 +54,24 @@ An example application is given in this project!
 
 2 - then in your activitiy:
 
-```java
+```kotlin
 package guepardoapps.verticalseekbarexample
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.widget.TextView
-import guepardoapps.library.verticalseekbarview.VerticalSeekBarView
-import guepardoapps.library.verticalseekbarview.constants.Defaults
-import guepardoapps.library.verticalseekbarview.extensions.doubleFormat
+import com.github.guepardoapps.verticalseekbarview.VerticalSeekBarView
+import com.github.guepardoapps.verticalseekbarview.constants.Defaults
+import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
 
 class MainActivity : AppCompatActivity() {
     private val tag: String = MainActivity::class.java.simpleName
 
     private val loopInterval: Long = 250
+
+    private var subscriptions: Array<Disposable> = arrayOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -82,17 +84,23 @@ class MainActivity : AppCompatActivity() {
         val verticalSeekBarView = findViewById<VerticalSeekBarView>(R.id.valueControl)
         verticalSeekBarView.setStyle(Defaults.styleVolumeSliderBlue)
         verticalSeekBarView.setLoopInterval(loopInterval)
-        verticalSeekBarView.positionPublishSubject
+        subscriptions = subscriptions.plus(verticalSeekBarView.positionPublishSubject
                 .subscribeOn(Schedulers.io())
                 .subscribe(
                         { response ->
-                            val text = response.y.doubleFormat(2)
+                            val text = String.format("%.2f", response.y)
                             valueView.text = text
                         },
                         { throwable ->
                             Log.e(tag, throwable.toString())
                         }
-                )
+                ))
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        subscriptions.forEach { x -> x.dispose() }
+        subscriptions = arrayOf()
     }
 }
 ```
@@ -100,15 +108,15 @@ class MainActivity : AppCompatActivity() {
 3 - change your style:
 Following styles are given:
 
-```java
-package guepardoapps.library.verticalseekbarview.constants
+```kotlin
+package com.github.guepardoapps.verticalseekbarview.constants
 
 import android.graphics.Color
-import guepardoapps.library.verticalseekbarview.models.VerticalSeekBarStyle
+import com.github.guepardoapps.verticalseekbarview.models.VerticalSeekBarStyle
 
 class Defaults {
     companion object {
-        ...
+        // ...
 
         /*
          * predefined styles
@@ -128,8 +136,8 @@ class Defaults {
 4 - create your own style:
 Styles are based on the class VerticalSeekBarStyle in package guepardoapps.library.verticalseekbarview.models;
 
-```java
-package guepardoapps.library.verticalseekbarview.models
+```kotlin
+package com.github.guepardoapps.verticalseekbarview.models
 
 data class VerticalSeekBarStyle(
         val colorSeekBar: Int,
@@ -138,9 +146,9 @@ data class VerticalSeekBarStyle(
         val startPercentageY: Double = 0.0)
 ```
 
-You can create a own style by creating an intance of this class, like:
-```java
-	val myStyle = VerticalSeekBarStyle(Color.BLUE, Color.GREEN, true, 25.0);
+You can create a own style by creating an instance of this class, like:
+```kotlin
+	val myStyle = VerticalSeekBarStyle(Color.BLUE, Color.GREEN, true, 25.0)
 ```
 
 Please note that the boolean value marks a reset of the SeekBar after releasing it.
