@@ -8,7 +8,7 @@
     },
     "license": "MIT",
     "private": true,
-    "homepage": "https://github.com/GuepardoApps/GuepardoApps.github.io/",
+    "homepage": ".",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
