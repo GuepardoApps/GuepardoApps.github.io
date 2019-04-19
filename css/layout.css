@@ -1,0 +1,14 @@
+.header-image {
+  background: #161415 url(../images/background.jpg) no-repeat top center;
+  filter: blur(0.75rem);
+  -webkit-filter: blur(0.75rem);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}

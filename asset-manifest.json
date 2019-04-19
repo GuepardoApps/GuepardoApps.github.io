@@ -1,13 +1,13 @@
 {
-  "main.css": "/GuepardoApps/GuepardoApps.github.io/static/css/main.c6115cf2.chunk.css",
-  "main.js": "/GuepardoApps/GuepardoApps.github.io/static/js/main.72093b99.chunk.js",
-  "main.js.map": "/GuepardoApps/GuepardoApps.github.io/static/js/main.72093b99.chunk.js.map",
-  "runtime~main.js": "/GuepardoApps/GuepardoApps.github.io/static/js/runtime~main.a11023a0.js",
-  "runtime~main.js.map": "/GuepardoApps/GuepardoApps.github.io/static/js/runtime~main.a11023a0.js.map",
-  "static/js/2.d6a534e5.chunk.js": "/GuepardoApps/GuepardoApps.github.io/static/js/2.d6a534e5.chunk.js",
-  "static/js/2.d6a534e5.chunk.js.map": "/GuepardoApps/GuepardoApps.github.io/static/js/2.d6a534e5.chunk.js.map",
-  "index.html": "/GuepardoApps/GuepardoApps.github.io/index.html",
-  "precache-manifest.c26029641286f0a3d4b2bf8e9e938090.js": "/GuepardoApps/GuepardoApps.github.io/precache-manifest.c26029641286f0a3d4b2bf8e9e938090.js",
-  "service-worker.js": "/GuepardoApps/GuepardoApps.github.io/service-worker.js",
-  "static/css/main.c6115cf2.chunk.css.map": "/GuepardoApps/GuepardoApps.github.io/static/css/main.c6115cf2.chunk.css.map"
+  "main.css": "./static/css/main.8e91615a.chunk.css",
+  "main.js": "./static/js/main.72093b99.chunk.js",
+  "main.js.map": "./static/js/main.72093b99.chunk.js.map",
+  "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+  "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+  "static/js/2.d6a534e5.chunk.js": "./static/js/2.d6a534e5.chunk.js",
+  "static/js/2.d6a534e5.chunk.js.map": "./static/js/2.d6a534e5.chunk.js.map",
+  "index.html": "./index.html",
+  "precache-manifest.9d333ad51bbc1dd1027bbd5ac050723a.js": "./precache-manifest.9d333ad51bbc1dd1027bbd5ac050723a.js",
+  "service-worker.js": "./service-worker.js",
+  "static/css/main.8e91615a.chunk.css.map": "./static/css/main.8e91615a.chunk.css.map"
 }
