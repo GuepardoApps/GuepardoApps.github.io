@@ -1,0 +1,50 @@
+{
+    "name": "guepardoapps-website",
+    "description": "Website build with react to present my CV",
+    "version": "2.0.0",
+    "author": {
+        "name": "Jonas Schubert",
+        "email": "guepardoapps@gmail.com"
+    },
+    "license": "MIT",
+    "private": true,
+    "homepage": "https://github.com/GuepardoApps/GuepardoApps.github.io/",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:GuepardoApps/GuepardoApps.github.io.git"
+    },
+    "keywords": [
+        "github pages",
+        "GuepardoApps",
+        "CV",
+        "Jonas Schubert"
+    ],
+    "bugs": "https://github.com/GuepardoApps/GuepardoApps.github.io/issues",
+    "contributors": [],
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "dependencies": {
+        "node-sass": "4.11.0",
+        "react": "16.8.6",
+        "react-dom": "16.8.6",
+        "react-scripts": "2.1.8"
+    },
+    "devDependencies": {
+        "gh-pages": "2.0.1"
+    }
+}

@@ -1,13 +1,2 @@
-*.iml
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
 /build
-/captures
-.externalNativeBuild
-/public
-/TRASH
-/_site
-/.sass-cache
+/node_modules
