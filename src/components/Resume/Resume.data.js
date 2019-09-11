@@ -2,27 +2,27 @@ export default {
     "skills": [
         {
             "skill": "Typescript/Javascript",
-            "level": "90",
+            "level": "95",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Desktop"
         },
         {
             "skill": "C#",
-            "level": "80",
+            "level": "85",
             "linkToExampleCode": "https://github.com/GuepardoApps/FluentTimeSpan"
         },
         {
             "skill": "HTML, CSS/SCSS",
-            "level": "80",
+            "level": "85",
             "linkToExampleCode": "https://github.com/GuepardoApps/GuepardoApps.github.io"
         },
         {
             "skill": "Dart",
-            "level": "50",
+            "level": "35",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Android"
         },
         {
             "skill": "Kotlin",
-            "level": "60",
+            "level": "65",
             "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-Android"
         },
         {
@@ -34,34 +34,34 @@ export default {
     "frameworks": [
         {
             "skill": "Angular",
-            "level": "90",
+            "level": "95",
             "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-Angular"
         },
         {
             "skill": "Flutter",
-            "level": "65",
+            "level": "60",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Android"
         },
         {
             "skill": "Electron",
-            "level": "75",
+            "level": "70",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Desktop"
         },
         {
             "skill": "React",
-            "level": "60",
+            "level": "70",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Desktop"
         },
         {
             "skill": "Vue",
-            "level": "50",
+            "level": "70",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Nextcloud"
         }
     ],
     "operating-systems": [
         {
             "skill": "Android",
-            "level": "80",
+            "level": "75",
             "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-Android"
         },
         {
@@ -71,7 +71,7 @@ export default {
         },
         {
             "skill": "Raspberry Pi",
-            "level": "65",
+            "level": "70",
             "linkToExampleCode": "https://github.com/LucaHome/LucaHome-RaspberryServer"
         }
     ],
