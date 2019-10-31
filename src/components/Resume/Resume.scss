@@ -1,13 +1,13 @@
 $background-color: #ffffff;
+$bar-background-color: #cccccc;
 $link-color: #11abb0;
 $link-color-hover: #313131;
-$bar-background-color: #cccccc;
 
 #resume {
   background: $background-color;
-  padding-top: 5.625rem;
-  padding-bottom: 4.5rem;
   overflow: hidden;
+  padding-bottom: 4.5rem;
+  padding-top: 5.625rem;
 
   & a {
     color: $link-color;
@@ -24,8 +24,8 @@ $bar-background-color: #cccccc;
 
   & h1 {
     font: 18px/24px "opensans-bold", sans-serif;
-    text-transform: uppercase;
     letter-spacing: 0.0625rem;
+    text-transform: uppercase;
 
     & span {
       border-bottom: 0.25rem solid $link-color;
@@ -46,14 +46,14 @@ $bar-background-color: #cccccc;
   }
 
   & .info {
-    font: 16px/24px "librebaskerville-italic", serif;
     color: #6e7881;
+    font: 16px/24px "librebaskerville-italic", serif;
     margin-bottom: 18px;
     margin-top: 9px;
   
     & span {
-      margin-right: 5px;
       margin-left: 5px;
+      margin-right: 5px;
     }
   }
 
@@ -63,80 +63,80 @@ $bar-background-color: #cccccc;
   }
 }
 
-.skill,
+.language,
 .framework,
 .operating-system,
 .work {
+  border-bottom: 1px solid #e8e8e8;
   margin-bottom: 48px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #e8e8e8;
 }
 
 .bars {
-  width: 95%;
   float: left;
   padding: 0;
   text-align: left;
+  width: 95%;
 
-  & .skills,
+  & .languages,
   .frameworks,
   .operating-systems {
-    margin-top: 2rem;
     list-style: none;
+    margin-top: 2rem;
   }
 
   & li {
-    position: relative;
-    margin-bottom: 3.5rem;
     background: $bar-background-color;
-    height: 2rem;
     border-radius: 0.1875rem;
+    height: 2rem;
+    margin-bottom: 3.5rem;
+    position: relative;
 
     & em {
-      font: 1.5rem "opensans-bold", sans-serif;
       color: $link-color-hover;
-      text-transform: uppercase;
-      letter-spacing: 0.125rem;
+      font: 1.5rem "opensans-bold", sans-serif;
       font-weight: normal;
+      letter-spacing: 0.125rem;
       position: relative;
+      text-transform: uppercase;
       top: -2rem;
     }
 
     & a {
-      font: 1.5rem "opensans-bold", sans-serif;
-      text-transform: uppercase;
-      letter-spacing: 0.125rem;
-      font-weight: normal;
-      position: relative;
-      top: -2rem;
       float: right;
+      font: 1.5rem "opensans-bold", sans-serif;
+      font-weight: normal;
+      letter-spacing: 0.125rem;
+      position: relative;
+      text-transform: uppercase;
+      top: -2rem;
     }
   }
 }
 
 .bar-expand {
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin: 0;
-  padding-right: 1.5rem;
+  border-radius: 0.1875rem 0 0 0.1875rem;
   display: inline-block;
   height: 2rem;
+  left: 0;
   line-height: 2rem;
-  border-radius: 0.1875rem 0 0 0.1875rem;
+  margin: 0;
+  padding-right: 1.5rem;
+  position: absolute;
+  top: 0;
 }
 
 $percentages: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100;
 @each $percentage in $percentages {
-  .skill-#{$percentage} {
-    width: percentage($percentage/ 100);
-    animation: skill-#{$percentage} 2s ease;
-    -moz-animation: skill-#{$percentage} 2s ease;
-    -webkit-animation: skill-#{$percentage} 2s ease;
+  .level-#{$percentage} {
+    -moz-animation: level-#{$percentage} 2s ease;
+    -webkit-animation: level-#{$percentage} 2s ease;
+    animation: level-#{$percentage} 2s ease;
     background: $link-color;
+    width: percentage($percentage/ 100);
   }
 
-  @keyframes skill-#{$percentage} {
+  @keyframes level-#{$percentage} {
     0% {
       width: 0px;
     }
@@ -145,7 +145,7 @@ $percentages: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85,
     }
   }
 
-  @-moz-keyframes skill-#{$percentage} {
+  @-moz-keyframes level-#{$percentage} {
     0% {
       width: 0px;
     }
@@ -154,7 +154,7 @@ $percentages: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85,
     }
   }
 
-  @-webkit-keyframes skill-#{$percentage} {
+  @-webkit-keyframes level-#{$percentage} {
     0% {
       width: 0px;
     }

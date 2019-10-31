@@ -6,33 +6,33 @@ $navbar-background-color: #333333;
 $navbar-selection-color: #11abb0;
 
 header {
-  position: relative;
+  background-color: $header-background-color;
   height: 100vh;
   min-height: 100vh;
-  width: 100%;
-  background-color: $header-background-color;
-  text-align: center;
   overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
 
   &:before {
     content: "";
     display: inline-block;
-    vertical-align: middle;
     height: 100%;
+    vertical-align: middle;
   }
 
   & .scrolldown a {
-    position: absolute;
+    border-radius: 100%;
     bottom: 1.875rem;
-    left: 50%;
-    margin-left: -1.8125rem;
     color: $header-link-color;
     display: block;
-    height: 2.625rem;
-    width: 2.625rem;
     font-size: 2.625rem;
+    height: 2.625rem;
+    left: 50%;
     line-height: 2.625rem;
-    border-radius: 100%;
+    margin-left: -1.8125rem;
+    position: absolute;
+    width: 2.625rem;
 
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -46,59 +46,58 @@ header {
 }
 
 .banner {
-  background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 auto;
-  width: 85%;
-  padding-bottom: 1.875rem;
-  text-align: center;
   border: 0.125rem solid $header-link-color;
+  display: inline-block;
+  left: 50%;
+  margin: 0 auto;
+  padding-bottom: 1.875rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  vertical-align: middle;
+  width: 85%;
 }
 
 .banner-text {
   width: 100%;
 
   & h1 {
-    font: 90px/1.1em "opensans-bold", sans-serif;
     color: $header-link-color;
+    font: 90px/1.1em "opensans-bold", sans-serif;
     letter-spacing: -0.125rem;
     margin: 0 auto 1.125rem auto;
     text-shadow: 0rem 0.0625rem 0.1875rem rgba(0, 0, 0, 0.8);
   }
 
   & h3 {
-    font: 18px/1.9em "librebaskerville-regular", serif;
     color: $header-sub-headline-color;
+    font: 18px/1.9em "librebaskerville-regular", serif;
     margin: 0 auto;
-    width: 70%;
     text-shadow: 0rem 0.0625rem 0.125rem rgba(0, 0, 0, 0.5);
+    width: 70%;
   }
 }
 
 #nav-wrap {
   font: 1.5rem "opensans-bold", sans-serif;
-  width: 100%;
-  text-transform: uppercase;
+  left: 0;
   letter-spacing: 0.125rem;
   margin: 0 auto;
-  z-index: 100;
   position: fixed;
-  left: 0;
+  text-transform: uppercase;
   top: 0;
+  width: 100%;
+  z-index: 100;
 
   & ul,
   & li,
   & a {
-    margin: 0;
-    padding: 0;
     border: none;
+    margin: 0;
     outline: none;
+    padding: 0;
   }
 
   & > a.mobile-btn {
@@ -112,22 +111,22 @@ header {
 
 ul#nav {
   min-height: 3rem;
-  width: auto;
   text-align: center;
+  width: auto;
 
   & li {
-    position: relative;
-    list-style: none;
-    height: 3rem;
     display: inline-block;
+    height: 3rem;
+    list-style: none;
+    position: relative;
 
     & a {
-      display: inline-block;
-      padding: 0.5rem 0.8125rem;
-      line-height: 2rem;
-      text-decoration: none;
-      text-align: left;
       color: $header-link-color;
+      display: inline-block;
+      line-height: 2rem;
+      padding: 0.5rem 0.8125rem;
+      text-align: left;
+      text-decoration: none;
 
       -webkit-transition: color 0.2s ease-in-out;
       -moz-transition: color 0.2s ease-in-out;
