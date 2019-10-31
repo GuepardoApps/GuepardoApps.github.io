@@ -1,86 +1,102 @@
 export default {
-    "skills": [
+    "languages": [
         {
-            "skill": "Typescript/Javascript",
-            "level": "95",
+            "language": "Typescript/Javascript",
+            "level": "90",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Desktop"
         },
         {
-            "skill": "C#",
-            "level": "85",
+            "language": "C#",
+            "level": "80",
             "linkToExampleCode": "https://github.com/GuepardoApps/FluentTimeSpan"
         },
         {
-            "skill": "HTML, CSS/SCSS",
-            "level": "85",
+            "language": "HTML, CSS/SCSS",
+            "level": "90",
             "linkToExampleCode": "https://github.com/GuepardoApps/GuepardoApps.github.io"
         },
         {
-            "skill": "Dart",
-            "level": "35",
+            "language": "Dart",
+            "level": "30",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Android"
         },
         {
-            "skill": "Kotlin",
-            "level": "65",
+            "language": "Kotlin",
+            "level": "50",
             "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-Android"
         },
         {
-            "skill": "Java",
-            "level": "45",
+            "language": "Java",
+            "level": "35",
             "linkToExampleCode": "https://github.com/TimeXt/TimeXt-Java"
         }
     ],
     "frameworks": [
         {
-            "skill": "Angular",
-            "level": "95",
+            "framework": "Angular",
+            "level": "90",
             "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-Angular"
         },
         {
-            "skill": "Flutter",
-            "level": "60",
+            "framework": "Flutter",
+            "level": "50",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Android"
         },
         {
-            "skill": "Electron",
-            "level": "70",
+            "framework": "React",
+            "level": "65",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Desktop"
         },
         {
-            "skill": "React",
-            "level": "70",
-            "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Desktop"
-        },
-        {
-            "skill": "Vue",
-            "level": "70",
+            "framework": "Vue",
+            "level": "65",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Nextcloud"
+        },
+        {
+            "framework": "Electron",
+            "level": "65",
+            "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Desktop"
+        },
+        {
+            "framework": "Quasar",
+            "level": "25",
+            "linkToExampleCode": ""
         }
     ],
     "operating-systems": [
         {
-            "skill": "Android",
-            "level": "75",
+            "operating-system": "Android",
+            "level": "90",
             "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-Android"
         },
         {
-            "skill": "Windows",
-            "level": "75",
+            "operating-system": "Windows",
+            "level": "80",
             "linkToExampleCode": "https://github.com/PasswordSafe/PasswordSafe-WindowsServer"
         },
         {
-            "skill": "Raspberry Pi",
-            "level": "70",
+            "operating-system": "Raspbian",
+            "level": "75",
             "linkToExampleCode": "https://github.com/LucaHome/LucaHome-RaspberryServer"
+        },
+        {
+            "operating-system": "Manjaro",
+            "level": "40",
+            "linkToExampleCode": ""
         }
     ],
     "work": [
         {
+            "Company": "Siemens AG",
+            "JobTitle": "Software Engineer",
+            "TimePeriod": "Nov. 2019 - today",
+            "JobDescription": ""
+        },
+        {
             "Company": "conplement AG",
             "JobTitle": "Software Developer Web",
-            "TimePeriod": "Jan. 2018 - today",
-            "JobDescription": "In my current job I contribute in two projects with similar n-layer architecture to create web applications. We use Typescript and Angular for the frontend and .NET Core and EF for the backend."
+            "TimePeriod": "Jan. 2018 - Oct. 2019",
+            "JobDescription": "At conplement I contributed in two projects with similar n-layer architecture to create web applications. We used Typescript and Angular for the frontend and .NET Core and EF for the backend."
         },
         {
             "Company": "ITK Engineering GmbH",

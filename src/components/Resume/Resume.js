@@ -6,21 +6,21 @@ export default class Resume extends Component {
   render() {
     return (
       <section id="resume">
-        <div className="row skill">
+        <div className="row language">
           <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
+            <h1><span>Languages</span></h1>
           </div>
 
           <div className="nine columns main-col">
             <div className="bars">
-              <ul className="skills">
-                {data.skills && data.skills.map((item) => {
+              <ul className="languages">
+                {data.languages && data.languages.map((item) => {
                   return (<li>
-                    <span className={`bar-expand skill-${item.level}`}></span>
-                    <em>{item.skill}</em>
-                    {item.linkToExampleCode
+                    <span className={`bar-expand level-${item.level}`}></span>
+                    <em>{item.language}</em>
+                    {!!item.linkToExampleCode
                       ? <a href={item.linkToExampleCode} target="_blank" rel="noopener noreferrer"><i className="fas fa-code" /></a>
-                      : null}
+                      : undefined}
                   </li>)
                 })}
               </ul>
@@ -38,11 +38,11 @@ export default class Resume extends Component {
               <ul className="frameworks">
                 {data.frameworks && data.frameworks.map((item) => {
                   return (<li>
-                    <span className={`bar-expand skill-${item.level}`}></span>
-                    <em>{item.skill}</em>
-                    {item.linkToExampleCode
+                    <span className={`bar-expand level-${item.level}`}></span>
+                    <em>{item.framework}</em>
+                    {!!item.linkToExampleCode
                       ? <a href={item.linkToExampleCode} target="_blank" rel="noopener noreferrer"><i className="fas fa-code" /></a>
-                      : null}
+                      : undefined}
                   </li>)
                 })}
               </ul>
@@ -60,11 +60,11 @@ export default class Resume extends Component {
               <ul className="operating-systems">
                 {data["operating-systems"] && data["operating-systems"].map((item) => {
                   return (<li>
-                    <span className={`bar-expand skill-${item.level}`}></span>
-                    <em>{item.skill}</em>
-                    {item.linkToExampleCode
+                    <span className={`bar-expand level-${item.level}`}></span>
+                    <em>{item["operating-system"]}</em>
+                    {!!item.linkToExampleCode
                       ? <a href={item.linkToExampleCode} target="_blank" rel="noopener noreferrer"><i className="fas fa-code" /></a>
-                      : null}
+                      : undefined}
                   </li>)
                 })}
               </ul>
@@ -91,7 +91,7 @@ export default class Resume extends Component {
                       Job description
                         <div>&bull; <em className="sub-info">{item.JobDescription}</em></div>
                     </p>
-                    : null}
+                    : undefined}
                 </div>
               </div>)
             })}
@@ -118,7 +118,7 @@ export default class Resume extends Component {
                       Title of thesis
                         <div>&bull; <em className="sub-info">{item.ThesisTitle}</em></div>
                     </p>
-                    : null}
+                    : undefined}
                 </div>
               </div>)
             })}
