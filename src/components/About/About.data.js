@@ -9,12 +9,12 @@ export default {
         },
         {
             "icon": "fab fa-github",
-            "link": "https://github.com/GuepardoApps/",
+            "link": "https://github.com/JonasSchubert/",
             "title": "Github"
         },
         {
             "icon": "fas fa-envelope",
-            "link": "mailto:guepardoapps@gmail.com",
+            "link": "mailto:jonas.schubert.projects@web.de",
             "title": "Mail"
         }
     ]

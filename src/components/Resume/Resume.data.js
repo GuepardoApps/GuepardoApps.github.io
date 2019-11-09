@@ -8,12 +8,12 @@ export default {
         {
             "language": "C#",
             "level": "80",
-            "linkToExampleCode": "https://github.com/GuepardoApps/FluentTimeSpan"
+            "linkToExampleCode": "https://github.com/conplementAG/FluentTimeSpan"
         },
         {
             "language": "HTML, CSS/SCSS",
             "level": "90",
-            "linkToExampleCode": "https://github.com/GuepardoApps/GuepardoApps.github.io"
+            "linkToExampleCode": "https://github.com/JonasSchubert/jonasschubert.github.io"
         },
         {
             "language": "Dart",
@@ -39,17 +39,17 @@ export default {
         },
         {
             "framework": "Flutter",
-            "level": "50",
+            "level": "45",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Android"
         },
         {
             "framework": "React",
-            "level": "65",
+            "level": "50",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Desktop"
         },
         {
             "framework": "Vue",
-            "level": "65",
+            "level": "80",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Nextcloud"
         },
         {
@@ -59,7 +59,7 @@ export default {
         },
         {
             "framework": "Quasar",
-            "level": "25",
+            "level": "15",
             "linkToExampleCode": ""
         }
     ],
@@ -72,7 +72,7 @@ export default {
         {
             "operating-system": "Windows",
             "level": "80",
-            "linkToExampleCode": "https://github.com/PasswordSafe/PasswordSafe-WindowsServer"
+            "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-CSharp"
         },
         {
             "operating-system": "Raspbian",

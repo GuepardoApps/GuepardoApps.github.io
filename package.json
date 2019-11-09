@@ -1,7 +1,7 @@
 {
     "name": "jonas.schubert-website",
     "description": "Website build with react to present my CV",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "author": {
         "name": "Jonas Schubert",
         "email": "jonas.schubert.projects@web.de"
@@ -10,12 +10,12 @@
     "private": true,
     "homepage": ".",
     "scripts": {
-        "start": "react-scripts start",
         "build": "react-scripts build",
-        "test": "react-scripts test",
+        "deploy": "gh-pages -d build",
         "eject": "react-scripts eject",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "start": "react-scripts start",
+        "test": "react-scripts test"
     },
     "repository": {
         "type": "git",

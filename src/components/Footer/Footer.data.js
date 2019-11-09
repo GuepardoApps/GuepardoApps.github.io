@@ -7,17 +7,17 @@ export default {
         },
         {
             "icon": "fab fa-github",
-            "link": "https://github.com/GuepardoApps/",
+            "link": "https://github.com/JonasSchubert/",
             "title": "Github"
         },
         {
             "icon": "fas fa-envelope",
-            "link": "mailto:guepardoapps@gmail.com",
+            "link": "mailto:jonas.schubert.projects@web.de",
             "title": "Mail"
         },
         {
             "icon": "fas fa-copyright",
-            "link": "https://github.com/GuepardoApps/GuepardoApps.github.io/blob/master/LICENSE.md",
+            "link": "https://github.com/JonasSchubert/jonasschubert.github.io/blob/master/LICENSE.md",
             "title": "Copyright"
         }
     ]

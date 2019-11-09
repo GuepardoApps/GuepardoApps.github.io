@@ -59,6 +59,7 @@ $projects-link-color-hover: #989898;
 .projects-item .item-wrap a {
   cursor: pointer;
   display: block;
+  text-align: center;
 }
 
 .projects-item .item-wrap .overlay {
@@ -109,6 +110,7 @@ $projects-link-color-hover: #989898;
 
 .projects-item .projects-item-meta {
   padding: 18px;
+  text-align: left;
 }
 
 .projects-item .projects-item-meta h5 {
@@ -132,4 +134,8 @@ $projects-link-color-hover: #989898;
   -moz-opacity: 1;
   opacity: 1;
   filter: alpha(opacity=100);
+}
+
+.item-img {
+  max-height: 13rem;
 }

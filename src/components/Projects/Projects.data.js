@@ -19,16 +19,16 @@ export default {
             "imageUrl": "https://raw.githubusercontent.com/LucaHome/WirelessControl-Desktop/master/screenshots/dark_3_2_wireless_socket_edit.jpg"
         },
         {
-            "name": "PasswordSafe-AndroidClient",
-            "description": "Android client for passwordsafe project. Stores account details encrypted.",
-            "projectUrl": "https://github.com/PasswordSafe/PasswordSafe-AndroidClient",
-            "imageUrl": "https://raw.githubusercontent.com/PasswordSafe/PasswordSafe-AndroidClient/master/screenshots/view_002.png"
-        },
-        {
             "name": "kULID",
             "description": "Universally Unique Lexicographically Sortable Identifier ported for Kotlin.",
-            "projectUrl": "https://github.com/GuepardoApps/kULID",
-            "imageUrl": "https://raw.githubusercontent.com/GuepardoApps/kULID/master/logo.png"
+            "projectUrl": "https://github.com/JonasSchubert/kULID",
+            "imageUrl": "https://raw.githubusercontent.com/JonasSchubert/kULID/master/logo.png"
+        },
+        {
+            "name": "TimeXt",
+            "description": "Time extension in Kotlin.",
+            "projectUrl": "https://github.com/TimeXt/TimeXt-Kotlin",
+            "imageUrl": "https://raw.githubusercontent.com/TimeXt/TimeXt-Kotlin/master/logo.png"
         }
     ]
 }
