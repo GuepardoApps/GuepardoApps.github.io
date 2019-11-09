@@ -1,5 +1,5 @@
-#### Please visit my [page](https://guepardoapps.github.io)
+#### Please visit my [page](https://jonasschubert.github.io)
 
 ### Support or Contact
 
-[Mail](guepardoapps@gmail.com)
+[Mail](jonas.schubert.projects@web.de)
