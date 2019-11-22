@@ -8,7 +8,7 @@ export default {
         {
             "language": "C#",
             "level": "80",
-            "linkToExampleCode": "https://github.com/conplementAG/FluentTimeSpan"
+            "linkToExampleCode": "https://github.com/TimeXt/FluentTimeSpan"
         },
         {
             "language": "HTML, CSS/SCSS",
@@ -49,7 +49,7 @@ export default {
         },
         {
             "framework": "Vue",
-            "level": "80",
+            "level": "90",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Nextcloud"
         },
         {
@@ -60,7 +60,7 @@ export default {
         {
             "framework": "Quasar",
             "level": "15",
-            "linkToExampleCode": ""
+            "linkToExampleCode": "https://github.com/JonasSchubert/qassman"
         }
     ],
     "operating-systems": [
@@ -90,7 +90,7 @@ export default {
             "Company": "Siemens AG",
             "JobTitle": "Software Engineer",
             "TimePeriod": "Nov. 2019 - today",
-            "JobDescription": ""
+            "JobDescription": "Developing Vue JS applications."
         },
         {
             "Company": "conplement AG",
