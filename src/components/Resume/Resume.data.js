@@ -7,7 +7,7 @@ export default {
         },
         {
             "language": "C#",
-            "level": "80",
+            "level": "75",
             "linkToExampleCode": "https://github.com/TimeXt/FluentTimeSpan"
         },
         {
@@ -17,34 +17,34 @@ export default {
         },
         {
             "language": "Dart",
-            "level": "30",
+            "level": "25",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Android"
         },
         {
             "language": "Kotlin",
-            "level": "50",
+            "level": "40",
             "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-Android"
         },
         {
             "language": "Java",
-            "level": "35",
+            "level": "25",
             "linkToExampleCode": "https://github.com/TimeXt/TimeXt-Java"
         }
     ],
     "frameworks": [
         {
             "framework": "Angular",
-            "level": "90",
+            "level": "85",
             "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-Angular"
         },
         {
             "framework": "Flutter",
-            "level": "45",
+            "level": "40",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Android"
         },
         {
             "framework": "React",
-            "level": "50",
+            "level": "40",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Desktop"
         },
         {
@@ -54,7 +54,7 @@ export default {
         },
         {
             "framework": "Electron",
-            "level": "65",
+            "level": "50",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Desktop"
         },
         {
@@ -66,22 +66,22 @@ export default {
     "operating-systems": [
         {
             "operating-system": "Android",
-            "level": "90",
+            "level": "80",
             "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-Android"
         },
         {
             "operating-system": "Windows",
-            "level": "80",
+            "level": "85",
             "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-CSharp"
         },
         {
             "operating-system": "Raspbian",
-            "level": "75",
+            "level": "80",
             "linkToExampleCode": "https://github.com/LucaHome/LucaHome-RaspberryServer"
         },
         {
             "operating-system": "Manjaro",
-            "level": "40",
+            "level": "50",
             "linkToExampleCode": ""
         }
     ],
