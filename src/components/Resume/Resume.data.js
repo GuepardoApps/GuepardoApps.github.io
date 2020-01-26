@@ -2,12 +2,12 @@ export default {
     "languages": [
         {
             "language": "Typescript/Javascript",
-            "level": "90",
+            "level": "95",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Desktop"
         },
         {
             "language": "C#",
-            "level": "75",
+            "level": "70",
             "linkToExampleCode": "https://github.com/TimeXt/FluentTimeSpan"
         },
         {
@@ -22,7 +22,7 @@ export default {
         },
         {
             "language": "Kotlin",
-            "level": "40",
+            "level": "45",
             "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-Android"
         },
         {
@@ -33,9 +33,19 @@ export default {
     ],
     "frameworks": [
         {
+            "framework": "Vue",
+            "level": "95",
+            "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Nextcloud"
+        },
+        {
             "framework": "Angular",
-            "level": "85",
+            "level": "80",
             "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-Angular"
+        },
+        {
+            "framework": "Electron",
+            "level": "45",
+            "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Desktop"
         },
         {
             "framework": "Flutter",
@@ -48,16 +58,6 @@ export default {
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Desktop"
         },
         {
-            "framework": "Vue",
-            "level": "90",
-            "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Nextcloud"
-        },
-        {
-            "framework": "Electron",
-            "level": "50",
-            "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Desktop"
-        },
-        {
             "framework": "Quasar",
             "level": "15",
             "linkToExampleCode": "https://github.com/JonasSchubert/qassman"
@@ -65,14 +65,14 @@ export default {
     ],
     "operating-systems": [
         {
-            "operating-system": "Android",
-            "level": "80",
-            "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-Android"
-        },
-        {
             "operating-system": "Windows",
             "level": "85",
             "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-CSharp"
+        },
+        {
+            "operating-system": "Android",
+            "level": "75",
+            "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-Android"
         },
         {
             "operating-system": "Raspbian",
