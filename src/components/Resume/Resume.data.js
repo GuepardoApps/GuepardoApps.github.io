@@ -6,28 +6,28 @@ export default {
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Desktop"
         },
         {
-            "language": "C#",
-            "level": "70",
-            "linkToExampleCode": "https://github.com/TimeXt/FluentTimeSpan"
-        },
-        {
             "language": "HTML, CSS/SCSS",
             "level": "90",
             "linkToExampleCode": "https://github.com/JonasSchubert/jonasschubert.github.io"
         },
         {
-            "language": "Dart",
-            "level": "25",
-            "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Android"
+            "language": "C#",
+            "level": "75",
+            "linkToExampleCode": "https://github.com/TimeXt/FluentTimeSpan"
         },
         {
             "language": "Kotlin",
-            "level": "45",
+            "level": "40",
             "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-Android"
         },
         {
+            "language": "Dart",
+            "level": "20",
+            "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Android"
+        },
+        {
             "language": "Java",
-            "level": "25",
+            "level": "20",
             "linkToExampleCode": "https://github.com/TimeXt/TimeXt-Java"
         }
     ],
@@ -39,22 +39,27 @@ export default {
         },
         {
             "framework": "Angular",
-            "level": "80",
+            "level": "75",
             "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-Angular"
         },
         {
+            "framework": ".NetCore",
+            "level": "75",
+            "linkToExampleCode": "https://github.com/JonasSchubert/game-collection"
+        },
+        {
             "framework": "Electron",
-            "level": "45",
+            "level": "40",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Desktop"
         },
         {
             "framework": "Flutter",
-            "level": "40",
+            "level": "35",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Android"
         },
         {
             "framework": "React",
-            "level": "40",
+            "level": "35",
             "linkToExampleCode": "https://github.com/LucaHome/WirelessControl-Desktop"
         },
         {
@@ -70,14 +75,14 @@ export default {
             "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-CSharp"
         },
         {
-            "operating-system": "Android",
-            "level": "75",
-            "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-Android"
+            "operating-system": "Raspbian",
+            "level": "85",
+            "linkToExampleCode": "https://github.com/LucaHome/LucaHome-RaspberryServer"
         },
         {
-            "operating-system": "Raspbian",
+            "operating-system": "Android",
             "level": "80",
-            "linkToExampleCode": "https://github.com/LucaHome/LucaHome-RaspberryServer"
+            "linkToExampleCode": "https://github.com/OpenWeatherLib/OpenWeather-Android"
         },
         {
             "operating-system": "Manjaro",

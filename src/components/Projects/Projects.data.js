@@ -19,10 +19,10 @@ export default {
             "imageUrl": "https://raw.githubusercontent.com/LucaHome/WirelessControl-Android/master/screenshots/wireless_control_2_dark.jpg"
         },
         {
-            "name": "OpenWeather-Android",
-            "description": "Android library for downloading and handling data from openweather.",
-            "projectUrl": "https://github.com/OpenWeatherLib/OpenWeather-Android",
-            "imageUrl": "https://raw.githubusercontent.com/OpenWeatherLib/OpenWeather-Android/master/screenshots/example_usage.png"
+            "name": "game-collection",
+            "description": "VueJs .NetCore SPA displaying games and saving match stats running on a raspberry pi",
+            "projectUrl": "https://github.com/JonasSchubert/game-collection",
+            "imageUrl": "https://raw.githubusercontent.com/JonasSchubert/game-collection/master/screenshot.jpg"
         },
         {
             "name": "TimeXt",
