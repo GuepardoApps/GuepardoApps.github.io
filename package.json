@@ -1,7 +1,7 @@
 {
     "name": "jonas.schubert-website",
     "description": "Website build with react to present my CV",
-    "version": "2.0.9",
+    "version": "2.0.10",
     "author": {
         "name": "Jonas Schubert",
         "email": "jonas.schubert.projects@web.de"
@@ -45,6 +45,6 @@
     },
     "devDependencies": {
         "gh-pages": "^2.2.0",
-        "typescript": "^3.8.2"
+        "typescript": "^3.8.3"
     }
 }
